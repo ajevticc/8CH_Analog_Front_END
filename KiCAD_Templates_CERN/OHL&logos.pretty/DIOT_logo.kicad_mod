@@ -1,0 +1,110 @@
+(footprint "DIOT_logo"
+	(version 20240617)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "445b83d1-8160-421c-ad5c-e091143a58b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DIOT_logo"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63613025-7ae0-46ac-9e05-e384405aaa3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4402bb68-2594-4931-98a5-04dc04527ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3db11f-7bf5-48fb-a943-aa6a0a21e207")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96f05c12-9d6d-4836-884c-6d6c097a2949")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -10.6582 -6.4512) (xy -6.9443 -6.4512) (xy -7.7861 -4) (xy -9.2222 -4) (xy -9.6926 -2.564) (xy 14.9924 -2.564)
+			(xy 14.7695 -1.9698) (xy 11.5261 -1.9698) (xy 11.0061 -0.4099) (xy 12.1203 -0.4099) (xy 11.848 0.4071)
+			(xy 10.3872 0.4071) (xy 8.9511 4.6657) (xy 8.1093 4.6657) (xy 9.5453 0.4071) (xy 8.1093 0.4071) (xy 8.3817 -0.4099)
+			(xy 10.6348 -0.4099) (xy 11.1299 -1.9698) (xy 6.3514 -1.9698) (xy 5.8315 -0.4099) (xy 6.7228 -0.4099)
+			(xy 4.9896 4.6657) (xy 3.5 4.6657) (xy 3.3803 3.8486) (xy 4.4202 3.8486) (xy 5.5839 0.4071) (xy 3.5041 0.4071)
+			(xy 2.3404 3.8486) (xy 3.3803 3.8486) (xy 3.5 4.6657) (xy 1.2262 4.6657) (xy 2.9594 -0.4099) (xy 5.4353 -0.4099)
+			(xy 5.9553 -1.9698) (xy 1.7709 -1.9698) (xy -0.7545 5.6066) (xy -1.6953 5.6066) (xy 0.8301 -1.9698)
+			(xy -1.1506 -1.9698) (xy -1.6706 -0.4347) (xy -1.0021 -0.4347) (xy -1.3487 0.6547) (xy -2.1905 0.6547)
+			(xy -3.1809 3.5763) (xy -2.3638 3.5763) (xy -2.7352 4.6657) (xy -5.3102 4.6657) (xy -4.9636 3.5763)
+			(xy -4.1218 3.5763) (xy -3.1314 0.6547) (xy -3.9484 0.6547) (xy -3.577 -0.4347) (xy -2.042 -0.4347)
+			(xy -1.5468 -1.9698) (xy -5.6568 -1.9698) (xy -6.1768 -0.4099) (xy -5.7559 -0.4099) (xy -5.4576 0.049)
+			(xy -6.8817 4.2608) (xy -7.489 4.6657) (xy -8.5 4.6657) (xy -8.5 3.8486) (xy -7.5633 3.8486) (xy -6.944558 2.018747)
+			(xy -6.3996 0.4071) (xy -8.4794 0.4071) (xy -9.6431 3.8486) (xy -8.5 3.8486) (xy -8.5 4.6657) (xy -10.7572 4.6657)
+			(xy -9.0241 -0.4099) (xy -6.5729 -0.4099) (xy -6.053 -1.9698) (xy -10.6334 -1.9698) (xy -9.9402 -4)
+			(xy -11.5 -4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e38bf27a-5e0b-4c30-8618-5da54e3d42a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "809f2554-d90b-4797-b5ad-8cd50812f2c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

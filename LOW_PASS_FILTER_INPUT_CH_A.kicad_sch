@@ -1,0 +1,76 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "02cd66f2-496d-4a4e-b299-909b3e147669")
+	(paper "A4")
+	(title_block
+		(date "2025-04-16")
+		(company "CERN")
+		(comment 1 "Design by A. Jevtic")
+	)
+	(lib_symbols)
+	(text "For now this is left as a reference that the LPF is a separate module.\nMost likely I will make a footprint for the module once we test it."
+		(exclude_from_sim no)
+		(at 137.668 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "6d7810c1-7278-4918-aa5f-ad734dc30947")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04c0ea1-e4c9-44f5-8fa3-de4f68af9842")
+	)
+	(hierarchical_label "LPF_OUT_CH_A"
+		(shape output)
+		(at 140.97 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38a141a3-4c6c-4b7f-a938-7eebf2c29ed1")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 132.08 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ed5c719-fc77-4bda-a547-39b49c3c7385")
+		(property "Netclass" "50_OHM"
+			(at 132.7785 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -294.64 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+)
