@@ -2797,6 +2797,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 254) (xy 71.12 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1257b9fa-7871-4e42-ae6c-ebba1917f5c9")
+	)
+	(wire
+		(pts
+			(xy 109.22 254) (xy 96.52 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12aa090c-d142-4a40-bdc1-96f4457a102b")
+	)
+	(wire
+		(pts
 			(xy 96.52 259.08) (xy 99.06 259.08)
 		)
 		(stroke
@@ -3227,16 +3247,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 254) (xy 71.12 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eabc05a-be7d-4abf-b112-7cde4f2de8b7")
-	)
-	(wire
-		(pts
 			(xy 99.06 266.7) (xy 99.06 275.59)
 		)
 		(stroke
@@ -3284,16 +3294,6 @@
 			(type default)
 		)
 		(uuid "8f16207c-2746-4156-bada-79371ee36843")
-	)
-	(wire
-		(pts
-			(xy 109.22 254) (xy 96.52 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "945d85a2-9218-4fe8-9f9f-8d0df644dc52")
 	)
 	(wire
 		(pts
@@ -3806,6 +3806,17 @@
 		)
 		(uuid "d586aa93-3cc0-4fda-8702-a53175e8109b")
 	)
+	(hierarchical_label "CAL_MEAS_SW_VC1_CH_B"
+		(shape input)
+		(at 109.22 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0862319a-2125-46c8-8dd9-ae303d5fea1f")
+	)
 	(hierarchical_label "SW_CROSS_BAR_OUT_CH_B"
 		(shape output)
 		(at 293.37 157.48 0)
@@ -3839,17 +3850,6 @@
 		)
 		(uuid "29b24822-87f5-4b1e-a5eb-6f3e01bfd72d")
 	)
-	(hierarchical_label "CAL_MEAS_SW_VC1_CH_B"
-		(shape input)
-		(at 58.42 254 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e589a90-be1c-41c0-97db-8603bb4943c0")
-	)
 	(hierarchical_label "CAL_MEAS_SW_VC2_CH_A"
 		(shape input)
 		(at 109.22 116.84 0)
@@ -3874,14 +3874,14 @@
 	)
 	(hierarchical_label "CAL_MEAS_SW_VC2_CH_B"
 		(shape input)
-		(at 109.22 254 0)
+		(at 58.42 254 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "60ff096a-bdd1-4261-82df-a70b5c226e95")
+		(uuid "59bc40f2-b360-4316-ba23-57508fe1a1b8")
 	)
 	(hierarchical_label "VC2_RF_SW_CONTROL"
 		(shape input)
@@ -9022,8 +9022,7 @@
 	)
 	(symbol
 		(lib_id "CERN:Analog & Interface/MASW-007935")
-		(at 73.66 185.42 90)
-		(mirror x)
+		(at 93.98 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9031,7 +9030,7 @@
 		(dnp no)
 		(uuid "81d9cb2c-4106-422b-85a0-6f47218da623")
 		(property "Reference" "IC43"
-			(at 72.39 191.7699 90)
+			(at 95.25 191.7699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9040,7 +9039,7 @@
 			)
 		)
 		(property "Value" "${DEVICE}"
-			(at 72.39 194.3099 90)
+			(at 95.25 194.3099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9049,7 +9048,7 @@
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-6N"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +9057,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\MASW-007935.pdf"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9066,7 @@
 			)
 		)
 		(property "Description" "GaAs SPDT High Power Switch DC - 3.0 GHz"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9075,7 @@
 			)
 		)
 		(property "Manufacturer" "MACOM"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9086,7 +9085,7 @@
 			)
 		)
 		(property "Part Number" "MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9096,7 +9095,7 @@
 			)
 		)
 		(property "Comment" "MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9106,7 +9105,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9116,7 +9115,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9126,7 +9125,7 @@
 			)
 		)
 		(property "Device" "MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9136,7 +9135,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT363, SC70-6, 0.65mm Pitch; 6 pin, 1.25mm W X 2.00mm L X 1.10mm H body, IPC Medium Density"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9146,7 +9145,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9156,7 +9155,7 @@
 			)
 		)
 		(property "Part Description" "GaAs SPDT High Power Switch DC - 3.0 GHz"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9166,7 +9165,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9176,7 +9175,7 @@
 			)
 		)
 		(property "Pin Count" "6"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9186,7 +9185,7 @@
 			)
 		)
 		(property "Case" "SOT363"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9196,7 +9195,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9206,7 +9205,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9216,7 +9215,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9226,7 +9225,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9236,7 +9235,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9246,7 +9245,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9256,7 +9255,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9266,7 +9265,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9276,7 +9275,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.45mm"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9286,7 +9285,7 @@
 			)
 		)
 		(property "Author" "CERN DEM HF"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9296,7 +9295,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MASW-007935.pdf"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9306,7 +9305,7 @@
 			)
 		)
 		(property "ComponentLink1URL" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9316,7 +9315,7 @@
 			)
 		)
 		(property "ComponentLink2URL" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9326,7 +9325,7 @@
 			)
 		)
 		(property "ComponentLink2Description" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9336,7 +9335,7 @@
 			)
 		)
 		(property "ComponentLink1Description" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9346,7 +9345,7 @@
 			)
 		)
 		(property "CreateDate" "2025-08-28 00:00:00 +0000"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9356,7 +9355,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2025-08-28 00:00:00 +0000"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9366,7 +9365,7 @@
 			)
 		)
 		(property "SCEM" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9376,7 +9375,7 @@
 			)
 		)
 		(property "LatestRevisionDate1" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9386,7 +9385,7 @@
 			)
 		)
 		(property "Field1" ""
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9396,7 +9395,7 @@
 			)
 		)
 		(property "LibSymbol" "Analog & Interface:MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9406,7 +9405,7 @@
 			)
 		)
 		(property "LibFootprint" "ICs And Semiconductors SMD:SOT95P280X145-6N"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9416,7 +9415,7 @@
 			)
 		)
 		(property "Database Name" "ICs And Semiconductors"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9426,7 +9425,7 @@
 			)
 		)
 		(property "Database Table Name" "Analog & Interface"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9436,7 +9435,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "MASW-007935"
-			(at 73.66 185.42 0)
+			(at 93.98 185.42 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10750,7 +10749,8 @@
 	)
 	(symbol
 		(lib_id "CERN:Analog & Interface/MASW-007587")
-		(at 76.2 241.3 0)
+		(at 91.44 241.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10774,7 +10774,7 @@
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:QFN50P300X300X100-13N-S125"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10783,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\MASW-007587.pdf"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +10792,7 @@
 			)
 		)
 		(property "Description" "High Power GaAs DPDT Diversity Switch DC-4.0 GHz"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +10801,7 @@
 			)
 		)
 		(property "Manufacturer" "MACOM"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10811,7 +10811,7 @@
 			)
 		)
 		(property "Comment" "MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10821,7 +10821,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10831,7 +10831,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10841,7 +10841,7 @@
 			)
 		)
 		(property "Device" "MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10851,7 +10851,7 @@
 			)
 		)
 		(property "PackageDescription" "QFN, 0.50mm Pitch, Square; 12 Pin, 3.00mm L X 3.00mm W X 1.00mm H body (w/Thermal Tab 1.25 X 1.25mm), IPC Medium Density"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10861,7 +10861,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10871,7 +10871,7 @@
 			)
 		)
 		(property "Part Description" "High Power GaAs DPDT Diversity Switch DC-4.0 GHz"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10881,7 +10881,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10891,7 +10891,7 @@
 			)
 		)
 		(property "Pin Count" "13"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10901,7 +10901,7 @@
 			)
 		)
 		(property "Case" "QFN12"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10911,7 +10911,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10921,7 +10921,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10941,7 +10941,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10951,7 +10951,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10961,7 +10961,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10971,7 +10971,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10981,7 +10981,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10991,7 +10991,7 @@
 			)
 		)
 		(property "ComponentHeight" "1mm"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 			)
 		)
 		(property "Author" "CERN DEM MR"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11011,7 +11011,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MASW-007587.pdf"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11021,7 +11021,7 @@
 			)
 		)
 		(property "ComponentLink1URL" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11031,7 +11031,7 @@
 			)
 		)
 		(property "ComponentLink2URL" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11041,7 +11041,7 @@
 			)
 		)
 		(property "ComponentLink2Description" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 			)
 		)
 		(property "ComponentLink1Description" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11061,7 +11061,7 @@
 			)
 		)
 		(property "CreateDate" "2016-02-05 00:00:00 +0000"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2016-02-05 00:00:00 +0000"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11081,7 +11081,7 @@
 			)
 		)
 		(property "SCEM" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11091,7 +11091,7 @@
 			)
 		)
 		(property "LatestRevisionDate1" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11101,7 +11101,7 @@
 			)
 		)
 		(property "Field1" ""
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11111,7 +11111,7 @@
 			)
 		)
 		(property "LibSymbol" "Analog & Interface:MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11121,7 +11121,7 @@
 			)
 		)
 		(property "LibFootprint" "ICs And Semiconductors SMD:QFN50P300X300X100-13N-S125"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11131,7 +11131,7 @@
 			)
 		)
 		(property "Part Number" "MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11140,7 @@
 			)
 		)
 		(property "Database Name" "ICs And Semiconductors_Backup"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +11149,7 @@
 			)
 		)
 		(property "Database Table Name" "Analog & Interface"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11158,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "MASW-007587"
-			(at 76.2 241.3 0)
+			(at 91.44 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

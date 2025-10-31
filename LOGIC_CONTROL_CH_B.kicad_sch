@@ -8024,7 +8024,7 @@
 		)
 		(uuid "025dd455-56bd-48a3-9524-13df1dd1a53d")
 	)
-	(label "VCCA"
+	(label "VCCB"
 		(at 300.99 212.09 0)
 		(effects
 			(font
@@ -8044,7 +8044,7 @@
 		)
 		(uuid "7577353c-e5ea-45ca-9342-73d81c80a8d3")
 	)
-	(label "VCCA"
+	(label "VCCB"
 		(at 308.61 184.15 180)
 		(effects
 			(font

@@ -9332,7 +9332,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 114.3 120.65)
+			(xy 110.49 88.9) (xy 110.49 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9712,7 +9712,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 114.3 116.84)
+			(xy 110.49 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10139,6 +10139,16 @@
 			(type default)
 		)
 		(uuid "c4ecbe0b-055e-4a51-9620-e8535c998af2")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c624ba4a-3d25-42cb-8f01-9c9e882b7eea")
 	)
 	(wire
 		(pts
@@ -21104,16 +21114,16 @@
 	)
 	(symbol
 		(lib_id "CERN:Analog & Interface/MASW-008853")
-		(at 121.92 99.06 0)
+		(at 121.92 114.3 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78117b1b-a5db-4724-86fd-de73ff449928")
 		(property "Reference" "IC47"
-			(at 129.54 93.98 0)
+			(at 129.54 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21121,7 +21131,7 @@
 			)
 		)
 		(property "Value" "${DEVICE}"
-			(at 129.54 96.52 0)
+			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21129,7 +21139,7 @@
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:SOT65P210X110-6N"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21138,7 +21148,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\MASW-008853.pdf"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21147,7 +21157,7 @@
 			)
 		)
 		(property "Description" "GaAs SPDT 2.7 V High Power Switch DC - 5.0 GHz"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21156,7 +21166,7 @@
 			)
 		)
 		(property "Manufacturer" "MACOM"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21166,7 +21176,7 @@
 			)
 		)
 		(property "Comment" "MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21176,7 +21186,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21186,7 +21196,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21196,7 +21206,7 @@
 			)
 		)
 		(property "Device" "MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21206,7 +21216,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT363, SC70-6, 0.65mm Pitch; 6 pin, 1.25mm W X 2.00mm L X 1.10mm H body, IPC Medium Density"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21216,7 +21226,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21226,7 +21236,7 @@
 			)
 		)
 		(property "Part Description" "GaAs SPDT 2.7 V High Power Switch DC - 5.0 GHz"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21236,7 +21246,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21246,7 +21256,7 @@
 			)
 		)
 		(property "Pin Count" "6"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21256,7 +21266,7 @@
 			)
 		)
 		(property "Case" "SOT363"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21266,7 +21276,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21276,7 +21286,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21286,7 +21296,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21296,7 +21306,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21306,7 +21316,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21316,7 +21326,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21326,7 +21336,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21336,7 +21346,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21346,7 +21356,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.1mm"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21356,7 +21366,7 @@
 			)
 		)
 		(property "Author" "CERN DEM HF"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21366,7 +21376,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MASW-008853.pdf"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21376,7 +21386,7 @@
 			)
 		)
 		(property "ComponentLink1URL" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21386,7 +21396,7 @@
 			)
 		)
 		(property "ComponentLink2URL" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21396,7 +21406,7 @@
 			)
 		)
 		(property "ComponentLink2Description" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21406,7 +21416,7 @@
 			)
 		)
 		(property "ComponentLink1Description" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21416,7 +21426,7 @@
 			)
 		)
 		(property "CreateDate" "2025-07-10 00:00:00 +0000"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21426,7 +21436,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2025-07-10 00:00:00 +0000"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21436,7 +21446,7 @@
 			)
 		)
 		(property "SCEM" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21446,7 +21456,7 @@
 			)
 		)
 		(property "LatestRevisionDate1" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21456,7 +21466,7 @@
 			)
 		)
 		(property "Field1" ""
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21466,7 +21476,7 @@
 			)
 		)
 		(property "LibSymbol" "Analog & Interface:MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21476,7 +21486,7 @@
 			)
 		)
 		(property "LibFootprint" "ICs And Semiconductors SMD:SOT65P210X110-6N"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -21486,7 +21496,7 @@
 			)
 		)
 		(property "Part Number" "MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21495,7 +21505,7 @@
 			)
 		)
 		(property "Database Name" "ICs And Semiconductors_Backup"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21504,7 +21514,7 @@
 			)
 		)
 		(property "Database Table Name" "Analog & Interface"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21513,7 +21523,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "MASW-008853"
-			(at 121.92 99.06 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23459,7 +23469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 120.65 0)
+		(at 110.49 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23468,7 +23478,7 @@
 		(dnp no)
 		(uuid "98e271bd-0826-48fd-b6e6-5c159669240f")
 		(property "Reference" "#PWR0226"
-			(at 114.3 127 0)
+			(at 110.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23477,7 +23487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 124.46 0)
+			(at 110.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23485,7 +23495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 120.65 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23494,7 +23504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 120.65 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +23513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 120.65 0)
+			(at 110.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

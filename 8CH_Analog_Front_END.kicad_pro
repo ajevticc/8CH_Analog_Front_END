@@ -56,6 +56,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.13,
+          "via_gap": 0.0,
+          "width": 0.104
+        },
+        {
+          "gap": 0.143,
+          "via_gap": 0.0,
+          "width": 0.107
         }
       ],
       "drc_exclusions": [],
@@ -187,7 +197,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.144,
+        0.15,
+        0.3,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +233,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -488,8 +510,9 @@
         "wire_width": 6
       },
       {
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.14,
+        "clearance": 0.0,
+        "diff_pair_gap": 0.143,
+        "diff_pair_width": 0.107,
         "line_style": 0,
         "name": "100_OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -503,6 +526,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.144,
         "wire_width": 18
       }
     ],
