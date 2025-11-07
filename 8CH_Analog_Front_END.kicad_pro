@@ -1273,6 +1273,12 @@
       "Net-(IC1105-ANT1)": [
         "50_OHM"
       ],
+      "Net-(IC1105-ANT2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1105-RX)": [
+        "50_OHM"
+      ],
       "Net-(IC1105-TX)": [
         "50_OHM"
       ],
@@ -1889,12 +1895,12 @@
       "LOGIC_CONTROL_CH_A"
     ],
     [
-      "e1bc8eb5-1b45-4220-9961-d777b4d01cb8",
-      "RF_SWITCH_CONTROL"
-    ],
-    [
       "562fa2fd-6d8a-4c7a-b0ec-3f363924defa",
       "LOGIC_CONTROL_CH_B"
+    ],
+    [
+      "e1bc8eb5-1b45-4220-9961-d777b4d01cb8",
+      "RF_SWITCH_CONTROL"
     ],
     [
       "2c9f8c33-4a7d-4fb6-a53c-6a5895a084c9",
