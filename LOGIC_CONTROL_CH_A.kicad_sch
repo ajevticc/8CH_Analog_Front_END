@@ -8084,17 +8084,6 @@
 		)
 		(uuid "d8c3957a-4a2d-42d4-8e69-f7db8df01aa1")
 	)
-	(hierarchical_label "OPAMP_BYPASS_V2_CH_A"
-		(shape output)
-		(at 345.44 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10b28762-11ea-4a05-a56e-0d551d2569c7")
-	)
 	(hierarchical_label "1BIT_ATTEN_VC2_CH_A"
 		(shape output)
 		(at 345.44 147.32 0)
@@ -8106,17 +8095,6 @@
 		)
 		(uuid "191bb092-a2d1-451f-bfb1-74b6f55a568e")
 	)
-	(hierarchical_label "DAC_DIR_V1_CH_A"
-		(shape output)
-		(at 345.44 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2190584e-5201-40b5-8426-c1e74e753366")
-	)
 	(hierarchical_label "SER_CLK"
 		(shape input)
 		(at 54.61 201.93 180)
@@ -8127,6 +8105,17 @@
 			(justify right)
 		)
 		(uuid "3e5efd02-5eaa-4244-aea0-ba4a2cd8c50c")
+	)
+	(hierarchical_label "DAC_DIR_V1_CH_A"
+		(shape output)
+		(at 345.44 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48681a16-959a-423b-92d9-ed8399d7974d")
 	)
 	(hierarchical_label "A0"
 		(shape output)
@@ -8172,6 +8161,17 @@
 		)
 		(uuid "7279464d-f00e-4412-b711-3fa179de3798")
 	)
+	(hierarchical_label "DAC_DIR_V2_CH_A"
+		(shape output)
+		(at 345.44 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "728879cb-1518-4a1e-961e-4e76927e592a")
+	)
 	(hierarchical_label "A1"
 		(shape output)
 		(at 345.44 194.31 0)
@@ -8194,17 +8194,6 @@
 		)
 		(uuid "73b7733c-9ca3-4f85-9259-f99294e2c43f")
 	)
-	(hierarchical_label "OPAMP_BYPASS_V1_CH_A"
-		(shape output)
-		(at 345.44 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7bd582e7-130b-46a9-924f-676955fec488")
-	)
 	(hierarchical_label "C2_2dB_A"
 		(shape output)
 		(at 345.44 121.92 0)
@@ -8215,17 +8204,6 @@
 			(justify left)
 		)
 		(uuid "83023a19-2be7-44c5-9d56-fda7ea3b28d4")
-	)
-	(hierarchical_label "CAL_MEAS_SW_VC2_CH_A"
-		(shape output)
-		(at 345.44 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87994d37-3255-407d-abf3-5c740785b876")
 	)
 	(hierarchical_label "A2"
 		(shape output)
@@ -8249,6 +8227,17 @@
 		)
 		(uuid "9919310a-d433-4045-8f6b-ae486ffb6ca2")
 	)
+	(hierarchical_label "CAL_MEAS_SW_VC2_CH_A"
+		(shape output)
+		(at 345.44 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c55048e-a0c3-456c-bd15-d219068c65fe")
+	)
 	(hierarchical_label "A4"
 		(shape output)
 		(at 345.44 213.36 0)
@@ -8260,6 +8249,28 @@
 		)
 		(uuid "a1476c6f-af22-4e6d-8e39-7fb3705ed729")
 	)
+	(hierarchical_label "OPAMP_BYPASS_V1_CH_A"
+		(shape output)
+		(at 345.44 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2c9bd7b-02e8-4c38-b4e2-90478f4218bb")
+	)
+	(hierarchical_label "OPAMP_BYPASS_V2_CH_A"
+		(shape output)
+		(at 345.44 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a675494b-c879-43e7-a344-0b4a2bd627ce")
+	)
 	(hierarchical_label "C4_4dB_A"
 		(shape output)
 		(at 345.44 128.27 0)
@@ -8270,17 +8281,6 @@
 			(justify left)
 		)
 		(uuid "b731ec3c-afde-4012-b519-d0841b1dc56f")
-	)
-	(hierarchical_label "CAL_MEAS_SW_VC1_CH_A"
-		(shape output)
-		(at 345.44 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b921a51e-aaff-4b82-8e55-cfa96d548081")
 	)
 	(hierarchical_label "D_LATCH_OE"
 		(shape input)
@@ -8315,16 +8315,16 @@
 		)
 		(uuid "cd8df880-af14-4c2a-ae17-3d6d0a1e0c88")
 	)
-	(hierarchical_label "DAC_DIR_V2_CH_A"
+	(hierarchical_label "CAL_MEAS_SW_VC1_CH_A"
 		(shape output)
-		(at 345.44 52.07 0)
+		(at 345.44 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d4da1cfc-6271-41e4-bd4c-56c58fe698f6")
+		(uuid "f1041b66-7d29-4aa0-aa05-53a706c2d973")
 	)
 	(hierarchical_label "SER_LATCH_CH_A"
 		(shape input)
