@@ -958,6 +958,120 @@
       "/AFE_BLOCK2/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
         "100_OHM"
       ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_A/1_BIT_ATT_IN_CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_A/1_BIT_ATT_OUT_CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_A/ATT_PIN_1": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_A/ATT_PIN_2": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_B/1_BIT_ATT_IN_CH_B": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_B/1_BIT_ATT_OUT_CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_B/ATT_PIN_1": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/1BIT_ATTENUATOR_CH_B/ATT_PIN_2": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/4BIT_STEP_ATTENUATOR_CH_A/DIGITAL_STEP_ATT_OUT_CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/4BIT_STEP_ATTENUATOR_CH_B/DIGITAL_STEP_ATT_OUT_CH_B": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/CH_B_ADC_IN_DIFF_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/CH_B_ADC_IN_DIFF_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/DAC_AMPLIFIER_CH_A/DAC_CALL_OUT_CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/DAC_AMPLIFIER_CH_B/DAC_CALL_OUT_CH_B": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/LPF1": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/LPF2": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/SWITCH_CONTROLL/CH_A": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/SWITCH_CONTROLL/CH_B": [
+        "50_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/A_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/A_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/B_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/B_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_A_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_A_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_B_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_B_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_A_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_A_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_B_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_B_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA1_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA1_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB1_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB1_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
+        "100_OHM"
+      ],
       "/DAC_AMPLIFIER_CH_A/DAC_CALL_OUT_CH_A": [
         "50_OHM"
       ],
@@ -969,6 +1083,12 @@
       ],
       "/LOW_PASS_FILTER_INPUT_CH_B/LPF_IN_CH_B": [
         "50_OHM"
+      ],
+      "/RFSoC_Connector_X1/ADC224_VIN01_N ": [
+        "100_OHM"
+      ],
+      "/RFSoC_Connector_X1/ADC224_VIN01_P ": [
+        "100_OHM"
       ],
       "/RFSoC_Connector_X1/ADC227_VIN23_N": [
         "100_OHM"
@@ -1856,7 +1976,7 @@
     ],
     [
       "e0337a1b-c397-4f99-b607-786eab07764a",
-      "AFE_BLOCK1"
+      "AFE_BLOCK_0"
     ],
     [
       "d100b094-5a3b-4b10-9d1e-8708b26fa918",
