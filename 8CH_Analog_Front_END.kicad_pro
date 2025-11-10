@@ -1090,6 +1090,12 @@
       "/RFSoC_Connector_X1/ADC224_VIN01_P ": [
         "100_OHM"
       ],
+      "/RFSoC_Connector_X1/ADC224_VIN23_N ": [
+        "100_OHM"
+      ],
+      "/RFSoC_Connector_X1/ADC224_VIN23_P ": [
+        "100_OHM"
+      ],
       "/RFSoC_Connector_X1/ADC227_VIN23_N": [
         "100_OHM"
       ],
