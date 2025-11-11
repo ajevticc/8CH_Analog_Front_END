@@ -510,7 +510,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.0,
+        "clearance": 0.457,
         "diff_pair_gap": 0.143,
         "diff_pair_width": 0.107,
         "line_style": 0,
@@ -521,6 +521,7 @@
         "wire_width": 10
       },
       {
+        "clearance": 0.558,
         "line_style": 0,
         "name": "50_OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -1072,6 +1073,18 @@
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
         "100_OHM"
       ],
+      "/AF_B0_CHA_N": [
+        "100_OHM"
+      ],
+      "/AF_B0_CHA_P": [
+        "100_OHM"
+      ],
+      "/AF_B0_CHB_N": [
+        "100_OHM"
+      ],
+      "/AF_B0_CHB_P": [
+        "100_OHM"
+      ],
       "/DAC_AMPLIFIER_CH_A/DAC_CALL_OUT_CH_A": [
         "50_OHM"
       ],
@@ -1270,7 +1283,13 @@
       "Net-(C618-Pad2)": [
         "100_OHM"
       ],
+      "Net-(C619-Pad1)": [
+        "100_OHM"
+      ],
       "Net-(C619-Pad2)": [
+        "100_OHM"
+      ],
+      "Net-(C621-Pad1)": [
         "100_OHM"
       ],
       "Net-(C7001-Pad1)": [

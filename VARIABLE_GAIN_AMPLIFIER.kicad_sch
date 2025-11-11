@@ -6141,6 +6141,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SECOND INVERSION!"
+		(exclude_from_sim no)
+		(at 261.874 120.904 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "39d001c8-958f-4486-830c-0e1d1198583c")
+	)
+	(text "FIRST INVERSION!"
+		(exclude_from_sim no)
+		(at 64.008 151.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "515851b4-61c8-4844-9f95-17b5e577fc7b")
+	)
 	(text "VGA\n"
 		(exclude_from_sim no)
 		(at 226.314 79.248 0)
@@ -6155,7 +6177,7 @@
 		(uuid "d4a05c76-5db8-4923-af50-95d004f15ed5")
 	)
 	(junction
-		(at 317.5 121.92)
+		(at 317.5 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1663a1a8-37af-43a8-93f3-3334f6a2e11a")
@@ -6173,12 +6195,6 @@
 		(uuid "23004662-7231-4655-960d-072fed62079c")
 	)
 	(junction
-		(at 82.55 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b0f8d3f-f87a-424c-b8b5-ece2dbce75fb")
-	)
-	(junction
 		(at 148.59 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6189,6 +6205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "455148cc-f786-410d-ab69-26f6e6d12f4b")
+	)
+	(junction
+		(at 82.55 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51fbcc51-be47-4fe4-8bef-8ab1e99f501b")
 	)
 	(junction
 		(at 148.59 144.78)
@@ -6475,7 +6497,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 121.92) (xy 317.5 121.92)
+			(xy 304.8 147.32) (xy 317.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6564,16 +6586,6 @@
 			(type default)
 		)
 		(uuid "30fd7a79-333f-4f1e-a739-a41b372d3c0f")
-	)
-	(wire
-		(pts
-			(xy 77.47 140.97) (xy 77.47 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322ea988-4d62-41b1-9703-65d5ab2736e3")
 	)
 	(wire
 		(pts
@@ -6781,26 +6793,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 140.97) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a70b4a9-3a01-4f9b-8168-2f92d5f44fa8")
-	)
-	(wire
-		(pts
-			(xy 77.47 140.97) (xy 82.55 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ba776a5-7879-4ba4-9df3-5316cc525898")
-	)
-	(wire
-		(pts
 			(xy 121.92 149.86) (xy 127 149.86)
 		)
 		(stroke
@@ -6912,16 +6904,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 133.35) (xy 256.54 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f80ba4-8beb-4024-9025-b6c58da0ff68")
-	)
-	(wire
-		(pts
 			(xy 135.89 158.75) (xy 135.89 154.94)
 		)
 		(stroke
@@ -6969,16 +6951,6 @@
 			(type default)
 		)
 		(uuid "73e4da87-d68e-4c36-82a5-ab7a7b99554a")
-	)
-	(wire
-		(pts
-			(xy 247.65 135.89) (xy 256.54 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a7c227-325c-4ea3-85e5-3fe93aeeeec5")
 	)
 	(wire
 		(pts
@@ -7033,6 +7005,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 135.89) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9114ac-f2a4-4e08-a5fa-e0f96fa452e5")
+	)
+	(wire
+		(pts
 			(xy 201.93 135.89) (xy 190.5 135.89)
 		)
 		(stroke
@@ -7040,6 +7022,16 @@
 			(type default)
 		)
 		(uuid "7fd0e779-89d6-40bc-ab04-28c1c230ed43")
+	)
+	(wire
+		(pts
+			(xy 247.65 133.35) (xy 256.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f83bf4-bb68-4f6f-a39c-56a53656f914")
 	)
 	(wire
 		(pts
@@ -7203,16 +7195,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 147.32) (xy 82.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cdd4ead-4a9e-42ef-a60b-513c8d564a42")
-	)
-	(wire
-		(pts
 			(xy 195.58 123.19) (xy 201.93 123.19)
 		)
 		(stroke
@@ -7302,6 +7284,16 @@
 			(type default)
 		)
 		(uuid "a7164f41-9cd1-46b5-8a1c-454be07b70a7")
+	)
+	(wire
+		(pts
+			(xy 85.09 149.86) (xy 82.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f618bd-bd70-4214-beb9-6b7690907050")
 	)
 	(wire
 		(pts
@@ -7468,13 +7460,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 147.32) (xy 85.09 147.32)
+			(xy 82.55 152.4) (xy 85.09 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c25cf8de-7860-43a1-a551-2a6293bc6f93")
+		(uuid "c2302d2d-debe-4a8b-a4be-c52e0fe9cc44")
 	)
 	(wire
 		(pts
@@ -7505,6 +7497,16 @@
 			(type default)
 		)
 		(uuid "c99b0e82-97e9-4d77-aebd-b91c680a672e")
+	)
+	(wire
+		(pts
+			(xy 82.55 152.4) (xy 82.55 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b5f9bf-2953-4940-8689-ef23f0cf4d27")
 	)
 	(wire
 		(pts
@@ -7598,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 147.32) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29bdfcb-b109-4524-9034-614b93c7a299")
+	)
+	(wire
+		(pts
 			(xy 148.59 143.51) (xy 148.59 144.78)
 		)
 		(stroke
@@ -7628,7 +7640,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 121.92) (xy 330.2 121.92)
+			(xy 317.5 147.32) (xy 330.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7659,16 +7671,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 149.86) (xy 85.09 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2c6203-67ee-431b-801f-48d8ece41518")
-	)
-	(wire
-		(pts
 			(xy 304.8 113.03) (xy 317.5 113.03)
 		)
 		(stroke
@@ -7676,6 +7678,16 @@
 			(type default)
 		)
 		(uuid "eff4e053-f5bf-460c-bb2c-745528ed0da9")
+	)
+	(wire
+		(pts
+			(xy 82.55 149.86) (xy 82.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f331705b-6249-4976-aa9c-01073aaba641")
 	)
 	(wire
 		(pts
@@ -7738,16 +7750,6 @@
 			(color 0 255 255 1)
 		)
 		(uuid "fd13776c-6e57-48e9-8888-883087420392")
-	)
-	(wire
-		(pts
-			(xy 85.09 152.4) (xy 54.61 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff816955-d3bb-407b-9ebd-39cc30c94a5e")
 	)
 	(label "VOB_P"
 		(at 262.89 130.81 0)
@@ -7839,6 +7841,16 @@
 		)
 		(uuid "29daba5f-2c08-4bfd-afe7-93add449993a")
 	)
+	(label "VOB_P"
+		(at 256.54 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a15afe0-a7af-4cf6-8ffb-0ab134496974")
+	)
 	(label "DIFF_B_N"
 		(at 297.18 137.16 0)
 		(effects
@@ -7868,16 +7880,6 @@
 			(justify left bottom)
 		)
 		(uuid "473c6da3-0227-4d6f-bacb-a78142960348")
-	)
-	(label "VOB_N"
-		(at 256.54 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e5f2c98-35ac-46bd-bb14-761f7d54527e")
 	)
 	(label "VIN_B_P"
 		(at 190.5 133.35 0)
@@ -7979,6 +7981,16 @@
 		)
 		(uuid "bb37bb30-05be-48ab-abc5-6b208d785a14")
 	)
+	(label "VOB_N"
+		(at 256.54 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c37f540f-0c4c-4f0f-b22b-148460da03ab")
+	)
 	(label "VOA_P"
 		(at 262.89 96.52 0)
 		(effects
@@ -7988,16 +8000,6 @@
 			(justify left bottom)
 		)
 		(uuid "c3df094c-12f0-4cd4-af09-ff54fb8fd285")
-	)
-	(label "VOB_P"
-		(at 256.54 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f18da21f-41af-494b-8793-9696a15e7163")
 	)
 	(label "VIN_A_N"
 		(at 190.5 102.87 0)
@@ -8083,6 +8085,17 @@
 		)
 		(uuid "1aa32d4e-d1fb-47a1-9d10-4418b62d9a76")
 	)
+	(hierarchical_label "VGA_IN_50_OHM_CH_B"
+		(shape input)
+		(at 54.61 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "248f3f5a-7d7c-4ee0-8fcb-7428bda7cdb6")
+	)
 	(hierarchical_label "B6"
 		(shape input)
 		(at 195.58 161.29 180)
@@ -8126,17 +8139,6 @@
 			(justify right)
 		)
 		(uuid "523ed2aa-153e-4e6e-8aae-c935b0126158")
-	)
-	(hierarchical_label "VGA_IN_50_OHM_CH_B"
-		(shape input)
-		(at 54.61 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b49093f-f6c4-4930-b976-a436d400245e")
 	)
 	(hierarchical_label "A2"
 		(shape input)
@@ -8546,6 +8548,39 @@
 	)
 	(netclass_flag ""
 		(length 2.54)
+		(shape round)
+		(at 73.66 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "82e09947-9308-406d-bd03-623b1ae39c13")
+		(property "Netclass" "50_OHM"
+			(at 74.3585 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -1.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
 		(shape diamond)
 		(at 148.59 143.51 0)
 		(fields_autoplaced yes)
@@ -8569,39 +8604,6 @@
 		)
 		(property "Component Class" ""
 			(at -148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 73.66 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbb2992a-eedf-44a9-aff6-506a09e76c3a")
-		(property "Netclass" "50_OHM"
-			(at 74.3585 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 255 0 0 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -1.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9302,71 +9304,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/d100b094-5a3b-4b10-9d1e-8708b26fa918"
 					(reference "#PWR0616")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12f15f88-874a-4643-98c2-322302570031")
-		(property "Reference" "#PWR0601"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f78a189-711c-480b-a6f3-0bf9b9bc642a")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/d100b094-5a3b-4b10-9d1e-8708b26fa918"
-					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -11059,7 +10996,8 @@
 	)
 	(symbol
 		(lib_id "CERN:Capacitors SMD/CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF")
-		(at 330.2 129.54 90)
+		(at 330.2 139.7 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11067,7 +11005,7 @@
 		(dnp yes)
 		(uuid "37989388-f4be-4745-8f99-0f05e97369cd")
 		(property "Reference" "C621"
-			(at 327.152 125.73 0)
+			(at 327.152 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11075,7 +11013,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 333.248 125.73 0)
+			(at 333.248 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11083,7 +11021,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +11030,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +11039,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +11048,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11120,7 +11058,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11130,7 +11068,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11140,7 +11078,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11150,7 +11088,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11160,7 +11098,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11170,7 +11108,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11180,7 +11118,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11190,7 +11128,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11200,7 +11138,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11210,7 +11148,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11220,7 +11158,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11230,7 +11168,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TMK105B7104KVHF"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11240,7 +11178,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11250,7 +11188,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11260,7 +11198,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11270,7 +11208,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11280,7 +11218,7 @@
 			)
 		)
 		(property "PressFit" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11290,7 +11228,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11300,7 +11238,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11310,7 +11248,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.55mm"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11320,7 +11258,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11330,7 +11268,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11340,7 +11278,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" ""
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11350,7 +11288,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11360,7 +11298,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11370,7 +11308,7 @@
 			)
 		)
 		(property "CreateDate" "2017-05-10 00:00:00 +0000"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11380,7 +11318,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2017-05-10 00:00:00 +0000"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11390,7 +11328,7 @@
 			)
 		)
 		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11400,7 +11338,7 @@
 			)
 		)
 		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11410,7 +11348,7 @@
 			)
 		)
 		(property "Part Number" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11357,7 @@
 			)
 		)
 		(property "Database Name" "Capacitors"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11366,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors SMD"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11375,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
-			(at 330.2 129.54 0)
+			(at 330.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +14986,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65cb7c6b-61b1-499d-b36a-9da77723e7c8")
 		(property "Reference" "#PWR0619"
 			(at 317.5 119.38 0)
@@ -15060,7 +14997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 118.11 0)
+			(at 317.5 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17188,8 +17125,7 @@
 	)
 	(symbol
 		(lib_id "CERN:Inductors SMD/FIL_MINI-CIRCUITS_DLFCN-290")
-		(at 309.88 139.7 0)
-		(mirror x)
+		(at 309.88 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17197,7 +17133,7 @@
 		(dnp no)
 		(uuid "74bb673e-29bf-4f56-8d43-ecac667506f6")
 		(property "Reference" "FL602"
-			(at 317.5 144.78 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17205,7 +17141,7 @@
 			)
 		)
 		(property "Value" "DC to 290MHz"
-			(at 317.5 142.24 0)
+			(at 317.5 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17213,7 +17149,7 @@
 			)
 		)
 		(property "Footprint" "Inductors SMD:FIL_MINI-CIRCUITS_FV1206-1"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17222,7 +17158,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\FIL_MINI-CIRCUITS_DLFCN-290.pdf"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17231,7 +17167,7 @@
 			)
 		)
 		(property "Description" "50 Ohm Differential Low Pass Filter"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,7 +17176,7 @@
 			)
 		)
 		(property "Manufacturer" "MINI-CIRCUITS"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17250,7 +17186,7 @@
 			)
 		)
 		(property "Comment" "DC to 290MHz"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17260,7 +17196,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17270,7 +17206,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17280,7 +17216,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17290,7 +17226,7 @@
 			)
 		)
 		(property "Pin Count" "6"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17300,7 +17236,7 @@
 			)
 		)
 		(property "Status" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17310,7 +17246,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17320,7 +17256,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17330,7 +17266,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17340,7 +17276,7 @@
 			)
 		)
 		(property "Part Description" "50 Ohm Differential Low Pass Filter"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17350,7 +17286,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "DLFCN-290"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17360,7 +17296,7 @@
 			)
 		)
 		(property "Case" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17370,7 +17306,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17380,7 +17316,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17390,7 +17326,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17400,7 +17336,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17410,7 +17346,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17420,7 +17356,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17430,7 +17366,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.89mm"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17440,7 +17376,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FIL_MINI-CIRCUITS_DLFCN-290.pdf"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17450,7 +17386,7 @@
 			)
 		)
 		(property "Author" "CERN DEM HF"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17460,7 +17396,7 @@
 			)
 		)
 		(property "CreateDate" "2025-07-10 00:00:00 +0000"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17470,7 +17406,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2025-07-10 00:00:00 +0000"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17480,7 +17416,7 @@
 			)
 		)
 		(property "LibSymbol" "Inductors & Transformers:FIL_MINI-CIRCUITS_DLFCN-290"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17490,7 +17426,7 @@
 			)
 		)
 		(property "LibFootprint" "Inductors SMD:FIL_MINI-CIRCUITS_FV1206-1"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(show_name yes)
 			(effects
 				(font
@@ -17500,7 +17436,7 @@
 			)
 		)
 		(property "Part Number" "FIL_MINI-CIRCUITS_DLFCN-290"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +17445,7 @@
 			)
 		)
 		(property "Database Name" "Inductors & Transformers"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17518,7 +17454,7 @@
 			)
 		)
 		(property "Database Table Name" "Inductors SMD"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17527,7 +17463,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "FIL_MINI-CIRCUITS_DLFCN-290"
-			(at 309.88 139.7 0)
+			(at 309.88 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18565,7 +18501,8 @@
 	)
 	(symbol
 		(lib_id "CERN:Capacitors SMD/CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF")
-		(at 304.8 129.54 90)
+		(at 304.8 139.7 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18573,7 +18510,7 @@
 		(dnp yes)
 		(uuid "9680b6c0-c69d-4aa4-84e5-1a74fbe2602b")
 		(property "Reference" "C619"
-			(at 301.752 125.73 0)
+			(at 301.752 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18581,7 +18518,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 307.848 125.73 0)
+			(at 307.848 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18589,7 +18526,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18535,7 @@
 			)
 		)
 		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18544,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18553,7 @@
 			)
 		)
 		(property "Manufacturer" "TAIYO YUDEN"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18626,7 +18563,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18636,7 +18573,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18646,7 +18583,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18656,7 +18593,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18666,7 +18603,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18676,7 +18613,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18686,7 +18623,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18696,7 +18633,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18706,7 +18643,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18716,7 +18653,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18726,7 +18663,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18736,7 +18673,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TMK105B7104KVHF"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18746,7 +18683,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18756,7 +18693,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18766,7 +18703,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18776,7 +18713,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18786,7 +18723,7 @@
 			)
 		)
 		(property "PressFit" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18796,7 +18733,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18806,7 +18743,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18816,7 +18753,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.55mm"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18826,7 +18763,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18836,7 +18773,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18846,7 +18783,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" ""
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18856,7 +18793,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18866,7 +18803,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18876,7 +18813,7 @@
 			)
 		)
 		(property "CreateDate" "2017-05-10 00:00:00 +0000"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18886,7 +18823,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "2017-05-10 00:00:00 +0000"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18896,7 +18833,7 @@
 			)
 		)
 		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18906,7 +18843,7 @@
 			)
 		)
 		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18916,7 +18853,7 @@
 			)
 		)
 		(property "Part Number" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18925,7 +18862,7 @@
 			)
 		)
 		(property "Database Name" "Capacitors"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18934,7 +18871,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors SMD"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18943,7 +18880,7 @@
 			)
 		)
 		(property "Part Number Nocolon" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
-			(at 304.8 129.54 0)
+			(at 304.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20721,16 +20658,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 317.5 121.92 0)
+		(at 317.5 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfcbd515-3002-4ac6-982d-86838094ee6c")
 		(property "Reference" "#PWR0620"
-			(at 317.5 128.27 0)
+			(at 317.5 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20739,7 +20675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.5 127 0)
+			(at 317.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20747,7 +20683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 121.92 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20756,7 +20692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 121.92 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20765,7 +20701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 121.92 0)
+			(at 317.5 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21443,6 +21379,71 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/d100b094-5a3b-4b10-9d1e-8708b26fa918"
 					(reference "#PWR0611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7dfda6d-36cf-42cd-abf1-bfe7b47580eb")
+		(property "Reference" "#PWR0601"
+			(at 82.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c229d4ed-c312-4401-894a-1d45b5a1fadb")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/d100b094-5a3b-4b10-9d1e-8708b26fa918"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
