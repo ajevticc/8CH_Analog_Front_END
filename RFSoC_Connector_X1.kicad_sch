@@ -18502,16 +18502,6 @@
 		)
 		(uuid "0144ed01-ffca-4fee-9842-a347c0612c0b")
 	)
-	(label "DAC228_VOUT0_N "
-		(at 53.34 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "071078a3-9da5-4ce0-9059-9b73b83b8c72")
-	)
 	(label "+DAC_AVCC_AUX_1V8"
 		(at 53.34 106.68 0)
 		(effects
@@ -18751,16 +18741,6 @@
 			(justify left bottom)
 		)
 		(uuid "41314db0-643a-46b6-85e3-dfd8e28eee5c")
-	)
-	(label "DAC229_VOUT3_N"
-		(at 53.34 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43e371d3-9ee7-4e2f-8552-76a69ccf5c65")
 	)
 	(label "B84.L5N {slash} D09 AV5"
 		(at 151.13 177.8 0)
@@ -19342,16 +19322,6 @@
 		)
 		(uuid "d5640431-f1e6-4287-b532-514b29ae86c9")
 	)
-	(label "DAC229_VOUT3_P "
-		(at 53.34 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc8181c7-2ae7-41c7-8886-81f74ea4593d")
-	)
 	(label "DAC229_VOUT2_P"
 		(at 53.34 53.34 0)
 		(effects
@@ -19401,16 +19371,6 @@
 			(justify left bottom)
 		)
 		(uuid "e2ce063e-cdb9-46ef-b8ee-825cb65dc4ee")
-	)
-	(label "DAC228_VOUT0_P "
-		(at 53.34 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e304d1ce-0bce-4239-937b-56daa412078a")
 	)
 	(label "VCM226_01"
 		(at 327.66 149.86 0)
@@ -19512,6 +19472,17 @@
 		)
 		(uuid "ff43cf40-125a-4890-ab75-1516dbad7567")
 	)
+	(hierarchical_label "DAC228_VOUT0_N"
+		(shape input)
+		(at 69.85 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "096134af-63e3-4a53-8a59-8506f387fd65")
+	)
 	(hierarchical_label "ADC224_VIN23_N "
 		(shape input)
 		(at 78.74 162.56 0)
@@ -19522,6 +19493,17 @@
 			(justify left)
 		)
 		(uuid "0d77c97f-7fe4-4d7d-8724-b275d7ecbffc")
+	)
+	(hierarchical_label "DAC229_VOUT3_P"
+		(shape input)
+		(at 69.85 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11212683-ae31-48ac-924a-abeac3f7cf77")
 	)
 	(hierarchical_label "B84.L5N_D09_AV5"
 		(shape input)
@@ -19710,6 +19692,17 @@
 		)
 		(uuid "a9c55a13-6c77-458b-8efb-21dadf660747")
 	)
+	(hierarchical_label "DAC228_VOUT0_P"
+		(shape input)
+		(at 69.85 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa420aff-1e70-41cc-b7e5-dab2c14484d3")
+	)
 	(hierarchical_label "ADC226_VIN01_N"
 		(shape input)
 		(at 78.74 139.7 0)
@@ -19764,6 +19757,17 @@
 			(justify left)
 		)
 		(uuid "d0eb6c4f-7946-482e-a9e2-8ca604170fbc")
+	)
+	(hierarchical_label "DAC229_VOUT3_N"
+		(shape input)
+		(at 69.85 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d89def11-a013-4a2d-a36d-99014c2a259e")
 	)
 	(hierarchical_label "ADC227_VIN23_P "
 		(shape input)

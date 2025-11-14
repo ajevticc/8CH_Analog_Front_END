@@ -1001,6 +1001,18 @@
       "/AFE_BLOCK_0/DAC_AMPLIFIER_CH_B/DAC_CALL_OUT_CH_B": [
         "50_OHM"
       ],
+      "/AFE_BLOCK_0/DAC_DIFF_CH_A_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/DAC_DIFF_CH_A_P": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/DAC_DIFF_CH_B_N": [
+        "100_OHM"
+      ],
+      "/AFE_BLOCK_0/DAC_DIFF_CH_B_P": [
+        "100_OHM"
+      ],
       "/AFE_BLOCK_0/LPF1": [
         "50_OHM"
       ],

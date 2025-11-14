@@ -16201,6 +16201,22 @@
 		)
 		(uuid "f7d2bdbd-9ff7-47cd-9edd-bbbfc84bfc96")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 97.79) (xy 15.24 115.57) (xy 38.1 115.57) (xy 38.1 97.79)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+				(color 255 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid dbc423b0-60cc-4541-bef4-4f61b8a9fbc6)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -16224,6 +16240,39 @@
 		)
 		(property "Component Class" ""
 			(at -48.26 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 15.24 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd7f1062-9437-4cd9-b9f1-145f89876ecd")
+		(property "Netclass" "100_OHM"
+			(at 16.4465 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -281.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

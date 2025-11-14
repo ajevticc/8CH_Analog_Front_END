@@ -16201,6 +16201,55 @@
 		)
 		(uuid "c5a5d2d5-ba55-47b7-9648-28c2b9c5b1dc")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 97.79) (xy 15.24 115.57) (xy 38.1 115.57) (xy 38.1 97.79)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+				(color 255 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 50fad1d2-6c30-4f4c-90e1-48a676715c22)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 15.24 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "530e28de-ad18-4497-a5b3-c1e0087e6143")
+		(property "Netclass" "100_OHM"
+			(at 16.4465 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 0 255 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -281.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
