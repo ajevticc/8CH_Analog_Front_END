@@ -18582,16 +18582,6 @@
 		)
 		(uuid "14b8a3da-4856-4aac-ba29-05f5cb983b95")
 	)
-	(label "DAC228_VOUT1_P "
-		(at 53.34 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16d0374b-5d1c-4927-bf4b-857e7128bbf0")
-	)
 	(label "DAC229_CLK_N"
 		(at 327.66 81.28 0)
 		(effects
@@ -18642,15 +18632,15 @@
 		)
 		(uuid "1f44183b-4c83-48e2-98a4-0228438fb1a1")
 	)
-	(label "DAC229_VOUT2_N"
-		(at 53.34 50.8 0)
+	(label "DAC229_VOUT3_P"
+		(at 69.85 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "24204173-cad0-4a85-b95c-bda12c2fd2a6")
+		(uuid "20c25454-6c4a-4d14-ac2e-d8583399c5e1")
 	)
 	(label "ADC225_VIN01_P "
 		(at 53.34 157.48 0)
@@ -18681,6 +18671,16 @@
 			(justify left bottom)
 		)
 		(uuid "27e3423a-8c70-4358-9dfe-5cb35fefafa4")
+	)
+	(label "DAC229_VOUT2_P"
+		(at 69.85 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "291b06ff-44e2-4042-a830-32bd381cfd4b")
 	)
 	(label "+1V2_BIAS_OUT"
 		(at 228.6 45.72 0)
@@ -19002,6 +19002,16 @@
 		)
 		(uuid "79826074-beed-49a7-91f6-75215b3fb4bb")
 	)
+	(label "DAC229_VOUT3_N"
+		(at 69.85 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8174f525-dddd-45a3-9bd0-9d812299be70")
+	)
 	(label "DAC229_VOUT1_P"
 		(at 53.34 60.96 0)
 		(effects
@@ -19071,6 +19081,16 @@
 			(justify left bottom)
 		)
 		(uuid "906ae719-4db7-4141-b5f8-e9a1394bc598")
+	)
+	(label "DAC229_VOUT2_N"
+		(at 69.85 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96569ec8-4d66-4fe1-addf-634e45e3f069")
 	)
 	(label "B84.L8N {slash} D15 AT6"
 		(at 327.66 182.88 0)
@@ -19322,26 +19342,6 @@
 		)
 		(uuid "d5640431-f1e6-4287-b532-514b29ae86c9")
 	)
-	(label "DAC229_VOUT2_P"
-		(at 53.34 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "deb509e5-1247-427f-aa16-909f5fe79457")
-	)
-	(label "DAC228_VOUT1_N "
-		(at 53.34 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dff76483-9d1a-47a3-868a-aa5e26608cd3")
-	)
 	(label "+ADC_AVCC_AUX_1V8"
 		(at 228.6 167.64 0)
 		(effects
@@ -19472,8 +19472,19 @@
 		)
 		(uuid "ff43cf40-125a-4890-ab75-1516dbad7567")
 	)
+	(hierarchical_label "DAC228_VOUT1_N"
+		(shape output)
+		(at 69.85 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03c53d74-8f90-47bf-bf99-37a948bfdf05")
+	)
 	(hierarchical_label "DAC228_VOUT0_N"
-		(shape input)
+		(shape output)
 		(at 69.85 96.52 0)
 		(effects
 			(font
@@ -19493,17 +19504,6 @@
 			(justify left)
 		)
 		(uuid "0d77c97f-7fe4-4d7d-8724-b275d7ecbffc")
-	)
-	(hierarchical_label "DAC229_VOUT3_P"
-		(shape input)
-		(at 69.85 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11212683-ae31-48ac-924a-abeac3f7cf77")
 	)
 	(hierarchical_label "B84.L5N_D09_AV5"
 		(shape input)
@@ -19604,6 +19604,17 @@
 		)
 		(uuid "7a9219a5-7fbf-4990-a42d-4b99dbef01cf")
 	)
+	(hierarchical_label "DAC228_VOUT1_P"
+		(shape output)
+		(at 69.85 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7caaef79-0b04-4e7f-b7c1-711db9032418")
+	)
 	(hierarchical_label "B84.L6N_D11_AU3"
 		(shape input)
 		(at 350.52 187.96 0)
@@ -19693,7 +19704,7 @@
 		(uuid "a9c55a13-6c77-458b-8efb-21dadf660747")
 	)
 	(hierarchical_label "DAC228_VOUT0_P"
-		(shape input)
+		(shape output)
 		(at 69.85 99.06 0)
 		(effects
 			(font
@@ -19757,17 +19768,6 @@
 			(justify left)
 		)
 		(uuid "d0eb6c4f-7946-482e-a9e2-8ca604170fbc")
-	)
-	(hierarchical_label "DAC229_VOUT3_N"
-		(shape input)
-		(at 69.85 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d89def11-a013-4a2d-a36d-99014c2a259e")
 	)
 	(hierarchical_label "ADC227_VIN23_P "
 		(shape input)
