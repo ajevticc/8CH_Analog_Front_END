@@ -201,7 +201,9 @@
         0.144,
         0.15,
         0.3,
-        0.5
+        0.5,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -2721,7 +2723,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://CERN_OHL.kicad_wks",
-    "plot_directory": "./",
+    "plot_directory": "../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -2928,6 +2930,10 @@
     [
       "40227e70-2d37-4426-8ded-7de7d9cfeb10",
       "4BIT_STEP_ATTENUATOR_CH_A"
+    ],
+    [
+      "18acdedb-eb6b-4543-994d-80b3dce360be",
+      "MECHANICAL"
     ],
     [
       "2c9f8c33-4a7d-4fb6-a53c-6a5895a084c9",

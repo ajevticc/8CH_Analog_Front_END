@@ -2989,10 +2989,6 @@
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(reference "#PWR03902")
-					(unit 1)
-				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(reference "#PWR01202")
 					(unit 1)
@@ -3059,10 +3055,6 @@
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(reference "#PWR03901")
-					(unit 1)
-				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(reference "#PWR01201")
 					(unit 1)
@@ -3134,10 +3126,6 @@
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(reference "U3902")
-					(unit 1)
-				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(reference "U1202")
 					(unit 1)
@@ -3209,10 +3197,6 @@
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(reference "U3901")
-					(unit 1)
-				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(reference "U1201")
 					(unit 1)
@@ -3319,9 +3303,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "24")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "49")
 				)
 			)
 		)
@@ -3596,9 +3577,6 @@
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "25")
 				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "46")
-				)
 			)
 		)
 	)
@@ -3692,9 +3670,6 @@
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "26")
 				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "40")
-				)
 			)
 		)
 	)
@@ -3777,9 +3752,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "18")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "47")
 				)
 			)
 		)
@@ -3984,9 +3956,6 @@
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "19")
 				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "41")
-				)
 			)
 		)
 	)
@@ -4090,9 +4059,6 @@
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "20")
 				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "48")
-				)
 			)
 		)
 	)
@@ -4175,9 +4141,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "13")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "42")
 				)
 			)
 		)
@@ -4271,9 +4234,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "23")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "43")
 				)
 			)
 		)
@@ -4517,9 +4477,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "22")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "44")
 				)
 			)
 		)
@@ -4793,9 +4750,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/9021cc04-9868-4992-8777-8fe3b211f6d2"
 					(page "21")
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/7d670497-d0f1-4079-928f-fbd4d92d0f92"
-					(page "45")
 				)
 			)
 		)
