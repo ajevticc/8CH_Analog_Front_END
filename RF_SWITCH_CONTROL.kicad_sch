@@ -8319,7 +8319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "062190c5-a04a-4093-adc2-f3465e98a6f8")
-		(property "Reference" "#PWR02707"
+		(property "Reference" "#PWR02708"
 			(at 195.58 151.13 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "#PWR02707")
+					(reference "#PWR02708")
 					(unit 1)
 				)
 			)
@@ -13602,7 +13602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a61a93e-7905-401d-94c1-75de37123359")
-		(property "Reference" "#PWR02708"
+		(property "Reference" "#PWR02706"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -13652,7 +13652,7 @@
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "#PWR02708")
+					(reference "#PWR02706")
 					(unit 1)
 				)
 			)
@@ -15041,7 +15041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d35487-bb69-4f9a-9326-653ac68df536")
-		(property "Reference" "#PWR02709"
+		(property "Reference" "#PWR02707"
 			(at 163.83 170.18 0)
 			(effects
 				(font
@@ -15091,7 +15091,7 @@
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "#PWR02709")
+					(reference "#PWR02707")
 					(unit 1)
 				)
 			)

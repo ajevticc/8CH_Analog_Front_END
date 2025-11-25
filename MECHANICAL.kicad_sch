@@ -1094,7 +1094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ef6fc52-e93b-4269-9848-a447bf561d3c")
-		(property "Reference" "FTG5102"
+		(property "Reference" "FTG5103"
 			(at 114.554 48.768 0)
 			(effects
 				(font
@@ -1501,7 +1501,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5102")
+					(reference "FTG5103")
 					(unit 1)
 				)
 			)
@@ -1516,7 +1516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c018eb6-b152-46ea-98dd-07756f803fe2")
-		(property "Reference" "FTG5104"
+		(property "Reference" "FTG5107"
 			(at 141.224 48.768 0)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5104")
+					(reference "FTG5107")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6688a8a7-e3d8-4439-bffb-eab185226357")
-		(property "Reference" "FTG5106"
+		(property "Reference" "FTG5102"
 			(at 101.854 60.198 0)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5106")
+					(reference "FTG5102")
 					(unit 1)
 				)
 			)
@@ -2782,7 +2782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70bbd79c-391f-4420-9cea-2b42c4150d8b")
-		(property "Reference" "FTG5103"
+		(property "Reference" "FTG5105"
 			(at 127.254 48.768 0)
 			(effects
 				(font
@@ -3189,7 +3189,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5103")
+					(reference "FTG5105")
 					(unit 1)
 				)
 			)
@@ -3268,7 +3268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73363d5c-1512-43c7-80b8-a87b64daa159")
-		(property "Reference" "FTG5109"
+		(property "Reference" "FTG5108"
 			(at 141.224 60.198 0)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5109")
+					(reference "FTG5108")
 					(unit 1)
 				)
 			)
@@ -4176,7 +4176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2ca08fc-08ad-4525-80af-3c2345b8d9b9")
-		(property "Reference" "FTG5108"
+		(property "Reference" "FTG5106"
 			(at 127.254 60.198 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5108")
+					(reference "FTG5106")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edc6787e-d65a-4c68-88e2-c9fc86b7bb28")
-		(property "Reference" "FTG5105"
+		(property "Reference" "FTG5109"
 			(at 153.924 48.768 0)
 			(effects
 				(font
@@ -5265,7 +5265,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5105")
+					(reference "FTG5109")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5724748-a223-483f-b4b5-3cd42b873156")
-		(property "Reference" "FTG5107"
+		(property "Reference" "FTG5104"
 			(at 114.554 60.198 0)
 			(effects
 				(font
@@ -5687,7 +5687,7 @@
 		(instances
 			(project ""
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/18acdedb-eb6b-4543-994d-80b3dce360be"
-					(reference "FTG5107")
+					(reference "FTG5104")
 					(unit 1)
 				)
 			)
