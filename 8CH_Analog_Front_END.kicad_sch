@@ -81,6 +81,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 238.76) (xy 101.6 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b853e5-1b64-415b-9c61-264acb2d2297")
+	)
+	(wire
+		(pts
 			(xy 233.68 69.85) (xy 269.24 69.85)
 		)
 		(stroke
@@ -342,6 +352,16 @@
 			(type default)
 		)
 		(uuid "2f778a85-da45-4a93-805f-ebe093575503")
+	)
+	(wire
+		(pts
+			(xy 125.73 233.68) (xy 101.6 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329336e7-855d-43f0-8963-42a7d137daea")
 	)
 	(wire
 		(pts
@@ -1144,16 +1164,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 233.68) (xy 101.6 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c85aecf1-ddf6-4eec-8e12-03f298510dc7")
-	)
-	(wire
-		(pts
 			(xy 347.98 142.24) (xy 326.39 142.24)
 		)
 		(stroke
@@ -1352,16 +1362,6 @@
 			(type default)
 		)
 		(uuid "f572b3a6-c087-4772-99b3-cf5a85850ea4")
-	)
-	(wire
-		(pts
-			(xy 125.73 238.76) (xy 101.6 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7417f8e-389c-4241-9220-6e08fcd49953")
 	)
 	(wire
 		(pts
@@ -1642,16 +1642,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b383b35-b328-48d0-b8cb-f523cf4be998")
-	)
-	(label "MUX_S0"
-		(at 125.73 233.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e8455f3-9876-4ba8-9c21-c899fd4d6ba9")
 	)
 	(label "DAC229_VOUT1_N"
 		(at 326.39 54.61 0)
@@ -2523,16 +2513,6 @@
 		)
 		(uuid "cb80e24e-bbb6-4339-aa55-de862ffa5ad5")
 	)
-	(label "MUX_S1"
-		(at 125.73 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbe7b818-7f00-4ebe-b8d1-9cf0976789e3")
-	)
 	(label "DAC228_VOUT0_N"
 		(at 123.19 106.68 180)
 		(effects
@@ -2652,6 +2632,26 @@
 			(justify right bottom)
 		)
 		(uuid "e63427d2-0d95-4da7-a26e-17a3ff636da6")
+	)
+	(label "MUX_S1"
+		(at 125.73 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8f5e65a-2692-447e-93c2-c739e9249757")
+	)
+	(label "MUX_S0"
+		(at 125.73 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9f7bbfb-238a-42b7-9290-3bf6a41007b8")
 	)
 	(label "ADC225_VIN01_N"
 		(at 247.65 34.29 0)
@@ -2831,199 +2831,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 269.24 27.94)
-		(size 26.67 66.04)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 255 0 1)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "0120c72a-acef-4875-b05d-83c73edec13a")
-		(property "Sheetname" "AFE_BLOCK_1"
-			(at 269.24 26.9236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AFE_BLOCK_1.kicad_sch"
-			(at 269.24 94.8694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "DAC_DIFF_CH_A_P" input
-			(at 269.24 52.07 180)
-			(uuid "eccc2cb3-24c4-4e7d-ada2-1832a2e7e6d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH_A_ADC_IN_DIFF_N" output
-			(at 269.24 41.91 180)
-			(uuid "264d8927-3269-46d1-b7f8-edcdb5989327")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC_DIFF_CH_B_N" input
-			(at 269.24 63.5 180)
-			(uuid "8094f36b-5c6e-46f5-8987-0f8d8c5eac72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC_DIFF_CH_A_N" input
-			(at 269.24 54.61 180)
-			(uuid "55774990-b0f1-4e70-b83e-0444d15543b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH_A_ADC_IN_DIFF_P" output
-			(at 269.24 39.37 180)
-			(uuid "f1936fad-3542-42d9-b538-2716ff144967")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC_DIFF_CH_B_P" input
-			(at 269.24 60.96 180)
-			(uuid "e0eed01f-91ec-4232-bbde-54e9ce5dadf6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH_B_ADC_IN_DIFF_P" output
-			(at 269.24 31.75 180)
-			(uuid "d7815382-d465-44f6-9ab4-c4b11f890699")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH_B_ADC_IN_DIFF_N" output
-			(at 269.24 34.29 180)
-			(uuid "ec2c98dd-4c48-44da-8873-ca033e75a291")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VC2_RF_SW_CONTROL" input
-			(at 269.24 88.9 180)
-			(uuid "4b4daf50-3a81-4d39-ab1b-2619f8dc31d6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VC1_RF_SW_CONTROL" input
-			(at 269.24 86.36 180)
-			(uuid "ad810b09-3313-481b-ab32-161252da620a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SER_CLK" input
-			(at 269.24 72.39 180)
-			(uuid "4a86ec5e-31e6-4873-93ab-04f10877c17f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SER_DATA" input
-			(at 269.24 69.85 180)
-			(uuid "299c0881-8367-4079-b067-6c0ccf7e6b91")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SER_LATCH_CH_A" input
-			(at 269.24 80.01 180)
-			(uuid "cecda94b-4ebb-4418-8067-fbbfbdb30d87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SER_LATCH_CH_B" input
-			(at 269.24 82.55 180)
-			(uuid "744ff701-2156-4ee2-890a-8c222ddba130")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D_LATCH_OE" input
-			(at 269.24 74.93 180)
-			(uuid "9c9623c8-9e4c-4408-939d-a2b58db7de0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b"
-					(page "12")
 				)
 			)
 		)
@@ -3747,7 +3554,7 @@
 		)
 	)
 	(sheet
-		(at 347.98 27.94)
+		(at 269.24 27.94)
 		(size 26.67 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3762,9 +3569,9 @@
 		(fill
 			(color 0 255 0 1.0000)
 		)
-		(uuid "79457b0f-d794-4bf0-bdfc-49e38f4ce408")
-		(property "Sheetname" "AFE_BLOCK_2"
-			(at 347.98 26.9236 0)
+		(uuid "7ec188dd-da52-40de-87ec-1b6845608342")
+		(property "Sheetname" "AFE_BLOCK_1"
+			(at 269.24 26.9236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,8 +3579,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "AFE_BLOCK_2.kicad_sch"
-			(at 347.98 94.8694 0)
+		(property "Sheetfile" "AFE_BLOCK_1.kicad_sch"
+			(at 269.24 94.8694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,8 +3589,8 @@
 			)
 		)
 		(pin "DAC_DIFF_CH_A_P" input
-			(at 347.98 52.07 180)
-			(uuid "e7259bbe-c100-464c-9a12-c78db927a135")
+			(at 269.24 52.07 180)
+			(uuid "33c22682-103e-4373-8c0b-46f6d0e1d40d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,8 +3599,8 @@
 			)
 		)
 		(pin "CH_A_ADC_IN_DIFF_N" output
-			(at 347.98 41.91 180)
-			(uuid "411071c2-f24f-4a8a-9448-f768214dba16")
+			(at 269.24 41.91 180)
+			(uuid "60c5d9f6-7685-4152-9d62-db41358a6ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,8 +3609,8 @@
 			)
 		)
 		(pin "DAC_DIFF_CH_B_N" input
-			(at 347.98 63.5 180)
-			(uuid "c2bf4f04-5120-441a-b0f9-f89396f2ab02")
+			(at 269.24 63.5 180)
+			(uuid "e3b84fb9-1063-44e9-ba8a-f80fe0b565af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,8 +3619,8 @@
 			)
 		)
 		(pin "DAC_DIFF_CH_A_N" input
-			(at 347.98 54.61 180)
-			(uuid "51be776b-bbaa-4a22-b45c-107eba78ea5b")
+			(at 269.24 54.61 180)
+			(uuid "aedf4ea9-64a6-492b-bcbc-454bf4a8630d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,8 +3629,8 @@
 			)
 		)
 		(pin "CH_A_ADC_IN_DIFF_P" output
-			(at 347.98 39.37 180)
-			(uuid "ee6d17c9-2bb6-4282-8bae-0cd9b7d4f21e")
+			(at 269.24 39.37 180)
+			(uuid "f955e20e-8fa9-4009-b34c-fccb37b236b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,8 +3639,8 @@
 			)
 		)
 		(pin "DAC_DIFF_CH_B_P" input
-			(at 347.98 60.96 180)
-			(uuid "f71f36b2-32a3-43d8-bcd3-ade280df8bb7")
+			(at 269.24 60.96 180)
+			(uuid "aecff7e9-59f0-4f23-90f6-05651fbfe705")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,8 +3649,8 @@
 			)
 		)
 		(pin "CH_B_ADC_IN_DIFF_P" output
-			(at 347.98 31.75 180)
-			(uuid "a160ed7b-d077-4759-8a64-d621ff5f59f1")
+			(at 269.24 31.75 180)
+			(uuid "8ad5e3ff-0f1e-4c44-98e5-6da8f91621c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,8 +3659,8 @@
 			)
 		)
 		(pin "CH_B_ADC_IN_DIFF_N" output
-			(at 347.98 34.29 180)
-			(uuid "72c4855a-6d00-4d8d-996d-c10c113c037e")
+			(at 269.24 34.29 180)
+			(uuid "99e2a318-d633-45fe-b009-e3bd179e14f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,8 +3669,8 @@
 			)
 		)
 		(pin "VC2_RF_SW_CONTROL" input
-			(at 347.98 88.9 180)
-			(uuid "09a7cd43-96d7-47bf-9fde-ebe1fbdb09a5")
+			(at 269.24 88.9 180)
+			(uuid "750c5e4d-2426-40ff-93c6-fef049f1d99b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,8 +3679,8 @@
 			)
 		)
 		(pin "VC1_RF_SW_CONTROL" input
-			(at 347.98 86.36 180)
-			(uuid "d888041c-d01f-4e75-a19f-95546bff3e1b")
+			(at 269.24 86.36 180)
+			(uuid "f0078c05-6d02-49b9-a826-b92d4ba605e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,8 +3689,8 @@
 			)
 		)
 		(pin "SER_CLK" input
-			(at 347.98 72.39 180)
-			(uuid "5eabfd10-2813-4239-b8c7-8b3c6e9dbed5")
+			(at 269.24 72.39 180)
+			(uuid "57cadd1c-1196-4d27-9146-f35501a5d8b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,8 +3699,8 @@
 			)
 		)
 		(pin "SER_DATA" input
-			(at 347.98 69.85 180)
-			(uuid "8fe5263b-ddce-4cd7-a5f6-38f0a341a425")
+			(at 269.24 69.85 180)
+			(uuid "7a396847-1ec7-4e9f-a245-7ab5b3d88a76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,8 +3709,8 @@
 			)
 		)
 		(pin "SER_LATCH_CH_A" input
-			(at 347.98 80.01 180)
-			(uuid "88bbfc20-2b9e-45b0-bc75-2152cf0db076")
+			(at 269.24 80.01 180)
+			(uuid "db165cdf-532a-41b5-9447-1a45640fe6a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,8 +3719,8 @@
 			)
 		)
 		(pin "SER_LATCH_CH_B" input
-			(at 347.98 82.55 180)
-			(uuid "a33cc7c2-c1d6-4e94-bb76-187d9ecad501")
+			(at 269.24 82.55 180)
+			(uuid "1adefdc6-10dd-4985-a991-2e05be7d0910")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,8 +3729,8 @@
 			)
 		)
 		(pin "D_LATCH_OE" input
-			(at 347.98 74.93 180)
-			(uuid "66c9a1c3-902a-4ef2-bc8b-b1f400eb5716")
+			(at 269.24 74.93 180)
+			(uuid "33862780-760f-452e-8f54-e170f9eaf1f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,6 +4290,199 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b"
 					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 347.98 27.94)
+		(size 26.67 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "e2455e95-2837-4323-b15c-07f24d19ff0e")
+		(property "Sheetname" "AFE_BLOCK_2"
+			(at 347.98 26.9236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AFE_BLOCK_2.kicad_sch"
+			(at 347.98 94.8694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_DIFF_CH_A_P" input
+			(at 347.98 52.07 180)
+			(uuid "6e07037c-dca0-426d-8d24-64865d4a486e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH_A_ADC_IN_DIFF_N" output
+			(at 347.98 41.91 180)
+			(uuid "ed9aa0ab-16a7-4e40-9198-16e6fd22ed9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DIFF_CH_B_N" input
+			(at 347.98 63.5 180)
+			(uuid "0d098005-abdb-4f5c-aee3-cfca3895468d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DIFF_CH_A_N" input
+			(at 347.98 54.61 180)
+			(uuid "6a2d308e-8e13-424b-b1cc-a6309931f4ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH_A_ADC_IN_DIFF_P" output
+			(at 347.98 39.37 180)
+			(uuid "d0eaa67c-93fb-4879-9ade-96efab41f7f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DIFF_CH_B_P" input
+			(at 347.98 60.96 180)
+			(uuid "f0376b4f-f199-4426-8b5f-53a47eb14a54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH_B_ADC_IN_DIFF_P" output
+			(at 347.98 31.75 180)
+			(uuid "bcf5c85f-3d53-4b06-9290-291e15b12c00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CH_B_ADC_IN_DIFF_N" output
+			(at 347.98 34.29 180)
+			(uuid "0662a410-dd80-474f-8fa9-a392cef9b00a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VC2_RF_SW_CONTROL" input
+			(at 347.98 88.9 180)
+			(uuid "e679eee8-20e1-4b78-986a-204de60320ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VC1_RF_SW_CONTROL" input
+			(at 347.98 86.36 180)
+			(uuid "66490f72-c0be-4a43-8f9d-325b060283ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER_CLK" input
+			(at 347.98 72.39 180)
+			(uuid "de0492c6-a447-460c-b63f-a25994b50be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER_DATA" input
+			(at 347.98 69.85 180)
+			(uuid "7eec5287-4edc-4b30-b638-8edfb02de108")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER_LATCH_CH_A" input
+			(at 347.98 80.01 180)
+			(uuid "9de3af13-3fe6-4dcb-9a18-3948f69cfde2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SER_LATCH_CH_B" input
+			(at 347.98 82.55 180)
+			(uuid "75b524f5-6a42-423d-874d-9402d4073653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_LATCH_OE" input
+			(at 347.98 74.93 180)
+			(uuid "2e5efc9e-aaa3-4254-80f3-74ce202524a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b"
+					(page "12")
 				)
 			)
 		)

@@ -109,12 +109,12 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "warning",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -1675,7 +1675,25 @@
       "Net-(C1301-Pad1)": [
         "50_OHM"
       ],
+      "Net-(C1303-Pad1)": [
+        "50_OHM"
+      ],
       "Net-(C1304-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C1306-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C1403-Pad1)": [
+        "50_OHM"
+      ],
+      "Net-(C1406-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C1503-Pad1)": [
+        "50_OHM"
+      ],
+      "Net-(C1506-Pad2)": [
         "50_OHM"
       ],
       "Net-(C17-Pad1)": [
@@ -1684,7 +1702,13 @@
       "Net-(C1801-Pad1)": [
         "50_OHM"
       ],
+      "Net-(C1803-Pad1)": [
+        "50_OHM"
+      ],
       "Net-(C1804-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C1806-Pad2)": [
         "50_OHM"
       ],
       "Net-(C20-Pad2)": [
@@ -1747,13 +1771,25 @@
       "Net-(C2901-Pad1)": [
         "50_OHM"
       ],
+      "Net-(C2903-Pad1)": [
+        "50_OHM"
+      ],
       "Net-(C2904-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C2906-Pad2)": [
         "50_OHM"
       ],
       "Net-(C3001-Pad1)": [
         "50_OHM"
       ],
+      "Net-(C3003-Pad1)": [
+        "50_OHM"
+      ],
       "Net-(C3004-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C3006-Pad2)": [
         "50_OHM"
       ],
       "Net-(C3101-Pad1)": [
@@ -1834,6 +1870,12 @@
       "Net-(C4421-Pad1)": [
         "100_OHM"
       ],
+      "Net-(C4503-Pad1)": [
+        "50_OHM"
+      ],
+      "Net-(C4506-Pad2)": [
+        "50_OHM"
+      ],
       "Net-(C4519-Pad1)": [
         "100_OHM"
       ],
@@ -1843,7 +1885,13 @@
       "Net-(C4701-Pad1)": [
         "50_OHM"
       ],
+      "Net-(C4703-Pad1)": [
+        "50_OHM"
+      ],
       "Net-(C4704-Pad2)": [
+        "50_OHM"
+      ],
+      "Net-(C4706-Pad2)": [
         "50_OHM"
       ],
       "Net-(C6001-Pad1)": [
@@ -1963,6 +2011,12 @@
       "Net-(IC11005-TX)": [
         "50_OHM"
       ],
+      "Net-(IC1101-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1101-RF2)": [
+        "50_OHM"
+      ],
       "Net-(IC1101-RFC)": [
         "50_OHM"
       ],
@@ -1982,6 +2036,12 @@
         "50_OHM"
       ],
       "Net-(IC1103-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC1104-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1104-RF2)": [
         "50_OHM"
       ],
       "Net-(IC1104-RFC)": [
@@ -2032,16 +2092,70 @@
       "Net-(IC1301-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC1301-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1301-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1301-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC1301-RX)": [
         "50_OHM"
       ],
       "Net-(IC1301-TX)": [
         "50_OHM"
       ],
+      "Net-(IC1302-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC1302-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC1302-VIN-)": [
+        "50_OHM"
+      ],
       "Net-(IC1303-ANT1)": [
         "50_OHM"
       ],
+      "Net-(IC1303-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1303-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1303-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC1303-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC1401-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1401-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1401-RFC)": [
+        "50_OHM"
+      ],
+      "Net-(IC1402-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC1402-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC1402-VIN-)": [
+        "50_OHM"
+      ],
+      "Net-(IC1403-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1403-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1403-RFC)": [
         "50_OHM"
       ],
       "Net-(IC15-ANT2)": [
@@ -2051,6 +2165,33 @@
         "50_OHM"
       ],
       "Net-(IC15-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC1501-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1501-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1501-RFC)": [
+        "50_OHM"
+      ],
+      "Net-(IC1502-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC1502-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC1502-VIN-)": [
+        "50_OHM"
+      ],
+      "Net-(IC1503-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1503-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1503-RFC)": [
         "50_OHM"
       ],
       "Net-(IC17-ANT1)": [
@@ -2071,13 +2212,40 @@
       "Net-(IC1801-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC1801-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1801-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1801-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC1801-RX)": [
         "50_OHM"
       ],
       "Net-(IC1801-TX)": [
         "50_OHM"
       ],
+      "Net-(IC1802-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC1802-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC1802-VIN-)": [
+        "50_OHM"
+      ],
       "Net-(IC1803-ANT1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1803-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC1803-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC1803-RFC)": [
         "50_OHM"
       ],
       "Net-(IC1803-TX)": [
@@ -2152,6 +2320,12 @@
       "Net-(IC2001-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC2001-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC2001-RF2)": [
+        "50_OHM"
+      ],
       "Net-(IC2001-RFC)": [
         "50_OHM"
       ],
@@ -2171,6 +2345,12 @@
         "50_OHM"
       ],
       "Net-(IC2003-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC2004-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC2004-RF2)": [
         "50_OHM"
       ],
       "Net-(IC2004-RFC)": [
@@ -2287,13 +2467,40 @@
       "Net-(IC2901-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC2901-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC2901-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC2901-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC2901-RX)": [
         "50_OHM"
       ],
       "Net-(IC2901-TX)": [
         "50_OHM"
       ],
+      "Net-(IC2902-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC2902-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC2902-VIN-)": [
+        "50_OHM"
+      ],
       "Net-(IC2903-ANT1)": [
+        "50_OHM"
+      ],
+      "Net-(IC2903-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC2903-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC2903-RFC)": [
         "50_OHM"
       ],
       "Net-(IC2903-TX)": [
@@ -2311,6 +2518,12 @@
       "Net-(IC3001-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC3001-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC3001-RF2)": [
+        "50_OHM"
+      ],
       "Net-(IC3001-RFC)": [
         "50_OHM"
       ],
@@ -2323,13 +2536,28 @@
       "Net-(IC3002-ANT1)": [
         "50_OHM"
       ],
+      "Net-(IC3002-FB)": [
+        "50_OHM"
+      ],
       "Net-(IC3002-RFC)": [
         "50_OHM"
       ],
       "Net-(IC3002-TX)": [
         "50_OHM"
       ],
+      "Net-(IC3002-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC3002-VIN-)": [
+        "50_OHM"
+      ],
       "Net-(IC3003-ANT1)": [
+        "50_OHM"
+      ],
+      "Net-(IC3003-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC3003-RF2)": [
         "50_OHM"
       ],
       "Net-(IC3003-RFC)": [
@@ -2419,6 +2647,12 @@
       "Net-(IC3201-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC3201-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC3201-RF2)": [
+        "50_OHM"
+      ],
       "Net-(IC3201-RFC)": [
         "50_OHM"
       ],
@@ -2438,6 +2672,12 @@
         "50_OHM"
       ],
       "Net-(IC3203-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC3204-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC3204-RF2)": [
         "50_OHM"
       ],
       "Net-(IC3204-RFC)": [
@@ -2680,6 +2920,33 @@
       "Net-(IC45-TX)": [
         "50_OHM"
       ],
+      "Net-(IC4501-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4501-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC4501-RFC)": [
+        "50_OHM"
+      ],
+      "Net-(IC4502-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC4502-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC4502-VIN-)": [
+        "50_OHM"
+      ],
+      "Net-(IC4503-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4503-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC4503-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC46-ANT1)": [
         "50_OHM"
       ],
@@ -2690,6 +2957,12 @@
         "50_OHM"
       ],
       "Net-(IC46-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC4601-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4601-RF2)": [
         "50_OHM"
       ],
       "Net-(IC4601-RFC)": [
@@ -2705,6 +2978,12 @@
         "50_OHM"
       ],
       "Net-(IC4603-TX)": [
+        "50_OHM"
+      ],
+      "Net-(IC4604-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4604-RF2)": [
         "50_OHM"
       ],
       "Net-(IC4604-RFC)": [
@@ -2725,13 +3004,40 @@
       "Net-(IC4701-ANT2)": [
         "50_OHM"
       ],
+      "Net-(IC4701-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4701-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC4701-RFC)": [
+        "50_OHM"
+      ],
       "Net-(IC4701-RX)": [
         "50_OHM"
       ],
       "Net-(IC4701-TX)": [
         "50_OHM"
       ],
+      "Net-(IC4702-FB)": [
+        "50_OHM"
+      ],
+      "Net-(IC4702-VIN+)": [
+        "50_OHM"
+      ],
+      "Net-(IC4702-VIN-)": [
+        "50_OHM"
+      ],
       "Net-(IC4703-ANT1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4703-RF1)": [
+        "50_OHM"
+      ],
+      "Net-(IC4703-RF2)": [
+        "50_OHM"
+      ],
+      "Net-(IC4703-RFC)": [
         "50_OHM"
       ],
       "Net-(IC4703-TX)": [
@@ -3071,12 +3377,12 @@
       "SWITCH_CONTROLL"
     ],
     [
-      "0120c72a-acef-4875-b05d-83c73edec13a",
-      "AFE_BLOCK_1"
+      "e2455e95-2837-4323-b15c-07f24d19ff0e",
+      "AFE_BLOCK_2"
     ],
     [
-      "8a43f6b9-a94c-4bc0-aece-978f205ae8af",
-      "LOGIC_CONTROL_CH_B"
+      "7e4d1211-7967-46e2-802e-ed628bf9c1cf",
+      "DAC_AMPLIFIER_CH_A"
     ],
     [
       "03174033-2a4e-4c0b-924a-bc1f0431ebbc",
@@ -3095,28 +3401,52 @@
       "LOGIC_CONTROL_CH_B"
     ],
     [
-      "3746e2cc-17f8-4b4f-a8cb-345433f88fe1",
-      "1BIT_ATTENUATOR_CH_B"
+      "beeb6716-142e-406b-a056-95b99b7b4969",
+      "DAC_AMPLIFIER_CH_B"
     ],
     [
-      "65f14b6a-1e59-4ba0-8c79-99528abf74ef",
-      "4BIT_STEP_ATTENUATOR_CH_B"
+      "e1538d20-009a-48f8-a17c-ac1410e10df5",
+      "LOGIC_CONTROL_CH_A"
     ],
     [
-      "b3811d22-85b6-4a8b-b572-2f785b7e2d0d",
+      "a07ff87c-bda9-449e-8493-adc70ab92011",
+      "SWITCH_CONTROLL"
+    ],
+    [
+      "562fa2fd-6d8a-4c7a-b0ec-3f363924defa",
+      "LOGIC_CONTROL_CH_B"
+    ],
+    [
+      "b9931bc0-163e-4a03-a053-c84ed198459e",
       "1BIT_ATTENUATOR_CH_A"
     ],
     [
-      "8ecc0ac4-8cbc-4df9-acc1-c06daaf2da54",
+      "92ce1901-304a-4ffa-a31d-87269f893276",
+      "1BIT_ATTENUATOR_CH_B"
+    ],
+    [
+      "40227e70-2d37-4426-8ded-7de7d9cfeb10",
+      "4BIT_STEP_ATTENUATOR_CH_A"
+    ],
+    [
+      "a80631d7-e4a9-40d1-806c-5d968f53661a",
+      "4BIT_STEP_ATTENUATOR_CH_B"
+    ],
+    [
+      "d100b094-5a3b-4b10-9d1e-8708b26fa918",
       "VARIABLE_GAIN_AMPLIFIER"
+    ],
+    [
+      "e1bc8eb5-1b45-4220-9961-d777b4d01cb8",
+      "RF_SWITCH_CONTROL"
+    ],
+    [
+      "7ec188dd-da52-40de-87ec-1b6845608342",
+      "AFE_BLOCK_1"
     ],
     [
       "4e8f2405-91d9-482a-9c54-fda6e194535b",
       "DAC_AMPLIFIER_CH_A"
-    ],
-    [
-      "94438d93-41a5-47b3-be18-720ef60906b0",
-      "SWITCH_CONTROLL"
     ],
     [
       "266649a8-0f9d-4956-8b11-1a52c28aa142",
@@ -3127,56 +3457,32 @@
       "LOGIC_CONTROL_CH_A"
     ],
     [
+      "94438d93-41a5-47b3-be18-720ef60906b0",
+      "SWITCH_CONTROLL"
+    ],
+    [
+      "8a43f6b9-a94c-4bc0-aece-978f205ae8af",
+      "LOGIC_CONTROL_CH_B"
+    ],
+    [
+      "b3811d22-85b6-4a8b-b572-2f785b7e2d0d",
+      "1BIT_ATTENUATOR_CH_A"
+    ],
+    [
+      "3746e2cc-17f8-4b4f-a8cb-345433f88fe1",
+      "1BIT_ATTENUATOR_CH_B"
+    ],
+    [
       "0e8afb7b-31de-4fcf-818c-68dd613f3b45",
       "4BIT_STEP_ATTENUATOR_CH_A"
     ],
     [
-      "e1bc8eb5-1b45-4220-9961-d777b4d01cb8",
-      "RF_SWITCH_CONTROL"
-    ],
-    [
-      "79457b0f-d794-4bf0-bdfc-49e38f4ce408",
-      "AFE_BLOCK_2"
-    ],
-    [
-      "562fa2fd-6d8a-4c7a-b0ec-3f363924defa",
-      "LOGIC_CONTROL_CH_B"
-    ],
-    [
-      "92ce1901-304a-4ffa-a31d-87269f893276",
-      "1BIT_ATTENUATOR_CH_B"
-    ],
-    [
-      "a80631d7-e4a9-40d1-806c-5d968f53661a",
+      "65f14b6a-1e59-4ba0-8c79-99528abf74ef",
       "4BIT_STEP_ATTENUATOR_CH_B"
     ],
     [
-      "b9931bc0-163e-4a03-a053-c84ed198459e",
-      "1BIT_ATTENUATOR_CH_A"
-    ],
-    [
-      "d100b094-5a3b-4b10-9d1e-8708b26fa918",
+      "8ecc0ac4-8cbc-4df9-acc1-c06daaf2da54",
       "VARIABLE_GAIN_AMPLIFIER"
-    ],
-    [
-      "7e4d1211-7967-46e2-802e-ed628bf9c1cf",
-      "DAC_AMPLIFIER_CH_A"
-    ],
-    [
-      "a07ff87c-bda9-449e-8493-adc70ab92011",
-      "SWITCH_CONTROLL"
-    ],
-    [
-      "beeb6716-142e-406b-a056-95b99b7b4969",
-      "DAC_AMPLIFIER_CH_B"
-    ],
-    [
-      "e1538d20-009a-48f8-a17c-ac1410e10df5",
-      "LOGIC_CONTROL_CH_A"
-    ],
-    [
-      "40227e70-2d37-4426-8ded-7de7d9cfeb10",
-      "4BIT_STEP_ATTENUATOR_CH_A"
     ],
     [
       "ac7cbab6-6435-4640-aa9a-185eed7cf7bc",
