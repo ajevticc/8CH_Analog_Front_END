@@ -1,4 +1,4 @@
-38834677236470536
+38878785835690225
 3M SMD
 3M_961-210-5500-AR-PR
 10 Contacts - 2.54 mm x 2.54 mm Right Angle, Surface Mount Pin Strip Header (Mating Pin Length 5.8mm)
@@ -64071,6 +64071,20 @@ M1.6 L=12mm Slotted Cheese Head Machine Screw, DIN 84 A, Stainless Steel A2
 0
 0
 Fasteners & Fixings
+BOSSARD_BN670-1253131_h
+Flat Washer Without Chamfer for M12 Screw, DIN 125 A, Stainless Steel A2 140 HV
+
+0
+0
+0
+Fasteners & Fixings
+BOSSARD_BN670-1253131_v
+Flat Washer Without Chamfer for M12 Screw, DIN 125 A, Stainless Steel A2 140 HV
+
+0
+0
+0
+Fasteners & Fixings
 BOSSARD_BN670-1253255_h
 Flat Washer Without Chamfer for M12 Screw, DIN 125 A, Stainless Steel A2 140 HV
 
@@ -65177,6 +65191,13 @@ Spacer Ring, 29.4mm Diameter With Internal Diameter 25.9mm, 11mm Height
 0
 0
 Fasteners & Fixings
+EDA-05281-V1_misc1
+Spacer Ring, 29.4mm Diameter With Internal Diameter 25.9mm, 6.8mm Height
+
+0
+0
+0
+Fasteners & Fixings
 ESSENTRA_MNI-5-3_h
 M3 Nylon Bush, Outside Diameter 9.4mm, Shoulder Diameter 6mm
 
@@ -66087,6 +66108,13 @@ WURTH_746600145
 0
 0
 Fasteners & Fixings
+WURTH_960020010
+Round Spacer, Material : Polyamide,  External Dia. 4mm, Internal Dia. 2.2mm, Height 2mm
+
+0
+0
+0
+Fasteners & Fixings
 WURTH_970090324
 M3 L=9mm, Hex Stand-off with Internal Thread on both sides, Brass, Nickel Plated
 
@@ -66121,6 +66149,20 @@ WURTH_9774070243
 0
 5
 1
+Fasteners & Fixings
+WURTH_9774150360
+Bush with Internal Thread M3 Hole Diameter WA-SMSA SMT Steel Spacer
+
+0
+0
+0
+Fasteners & Fixings
+WURTH_78614025360
+Bush with Internal Thread M3 Hole Diameter WA-SMSA SMT Steel Spacer
+
+0
+0
+0
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -78960,6 +79002,13 @@ SODFL Diode; 2.60mm W X 1.60mm L X 0.70mm H Body, IPC Medium Density
 2
 2
 ICs And Semiconductors SMD
+SODFL3516X80N
+Small Outline Diode Flat Lead (SOD-123), Body; 2.60mm L X 1.6mm W X 0.8mm H
+
+0
+2
+2
+ICs And Semiconductors SMD
 SODFL3516X90N
 Small Outline Diode Flat Lead (SOD-123), Body; 2.60mm L X 1.6mm W X 0.8mm H
 
@@ -82677,6 +82726,13 @@ D3PAK TO-268, TO,5.45mm Pitch; 2 Pin,18.90mm L X 13.90mm W X 5.10mm H body, IPC 
 3
 3
 ICs And Semiconductors SMD
+TOREX_SSOT-24
+SSOT, 1.3mm Pitch; 4 Pin, 2.4mm W X 2.1mm L X 1.10mm H body, IPC Medium Density
+
+0
+4
+4
+ICs And Semiconductors SMD
 TOSHIBA_4PIN SO6L
 SOIC, 2.54mm Pitch; 4 pin SO6L TOSHIBA Case
 
@@ -85708,6 +85764,13 @@ TEN 5 Series , Body 32.5x20.5mm, DIP-24 Package with Standard Pinout
 8
 8
 ICs And Semiconductors THD
+DCDC_TRACO_TEN6N
+TEN 6WI Series , Body 31.8x20.3mm
+
+0
+7
+7
+ICs And Semiconductors THD
 DCDC_TRACO_TEN6WIN
 TEN 6WI Series , Body 31.8x20.3mm
 
@@ -86953,6 +87016,20 @@ FINISAR_FP-1310-5I-XXX
 0
 7
 5
+ICs And Semiconductors THD
+FS_MEMS-VOA-5.5_H
+Single-channel Attenuator, Body Dia. 5.40, Body H 30.0mm
+
+0
+3
+3
+ICs And Semiconductors THD
+FS_MEMS-VOA-5.5_V
+Single-channel Attenuator, Body Dia. 5.40, Body H 30.0mm
+
+0
+3
+3
 ICs And Semiconductors THD
 FUJI_M263_FLIP
 IGBT Module, Body 94mm x 34mm, Screws on PCB Version
@@ -100023,6 +100100,13 @@ Size 2B, 8 Female Contacts Elbow Receptacle (90°) With Two Nut For Panel Mounti
 8
 8
 LEMO THD
+LEMO_ECG.2B.542.CLN
+USB 3.1 Female Contacts Receptacle with Two Nut for Panel Mounting And Alignment Keys (G)
+
+0
+11
+10
+LEMO THD
 LEMO_ECG.3B.306.CLV
 Size 3B, 6 Female Contacts Elbow Receptacle (90°) With Two Nut For Panel Mounting
 
@@ -102830,6 +102914,20 @@ Frame of Standard Surface Mount Shield (Two Piece), External Dimensions 26.26 x 
 20
 16
 Metal Screening Box
+MSBOX_LEADERTECH_SMS-403-C
+Cover for Frame of Standard Surface Mount Shield (Two Piece), External Dimensions 26.87 x 26.87mm
+
+0
+0
+0
+Metal Screening Box
+MSBOX_LEADERTECH_SMS-403-F
+Frame of Standard Surface Mount Shield (Two Piece), External Dimensions 26.26 x 26.26mm
+
+0
+20
+16
+Metal Screening Box
 MSBOX_MASACH_MS477-10C
 Cover for RF Shield/EMI Surface Mount Shield Frame (Two Piece), External Dimensions 47.7 x 18.2mm
 
@@ -103004,6 +103102,20 @@ Shielding Cabinet SMD-Frame WE-SHC, Internal Dimensions 60 x 60mm
 0
 48
 44
+Metal Screening Box
+MSBOX_WURTH_36702939
+RF Shield/EMI Surface Mount Shield Frame (Two Piece), External Dimensions 47.7 x 18.2mm
+
+0
+1
+1
+Metal Screening Box
+MSBOX_WURTH_36712939
+RF Shield/EMI Surface Mount Shield Frame (Two Piece), External Dimensions 47.7 x 18.2mm
+
+0
+0
+0
 Miscellaneous SMD
 AFBR-811FN
 81 Pin BGA Pitch 1.27mm, 9X9 Fiber Optic Transmitter
@@ -103387,7 +103499,7 @@ HIROSE_DF40C(2.0)-70DS-0.4V
 70 Contacts, 0.4mm Pitch, 2.0mm Height, Board-to-Board and Board-to-FPC Connector, DF40 Series
 
 0
-141
+70
 70
 Miscellaneous SMD
 HIROSE_DF40C-40DP-0.4V
@@ -103401,7 +103513,7 @@ HIROSE_DF40C-40DS-0.4V
 40 Contacts, 0.4mm Pitch, 1.5mm Height, Board-to-Board and Board-to-FPC Connector, DF40 Series
 
 0
-80
+40
 40
 Miscellaneous SMD
 HIROSE_DF40C-70DP-0.4V
@@ -104026,6 +104138,13 @@ NICOMATIC_221T08F22H
 0
 10
 10
+Miscellaneous SMD
+NICOMATIC_221T10F22H
+10 Contacts, Pitch 2mm, CMM 220 Male Micro connectors
+
+0
+12
+12
 Miscellaneous SMD
 NICOMATIC_221T14F22H
 14 Contacts, Pitch 2mm, CMM 220 Male Micro connectors
@@ -104788,7 +104907,7 @@ BULGIN_PX0580-PC-12132
 
 0
 5
-4
+5
 Miscellaneous THD
 BULGIN_PX0580-PC-COL
 10A 250Vac PC Flange Rear Mount Inlet IEC Connector
@@ -111745,8 +111864,8 @@ PCBM_CERN_FEASTMP_CLP_V1
 Radiation And Magnetic Field Tolerant 10W DC/DC Converter Module
 
 0
-0
-0
+89
+1
 PCB Modules
 PCBM_CERN_FEASTMP_V3_KIT
 Full Kit of Radiation and Magnetic Field Tolerant 10W DC/DC Converter Module
@@ -111992,6 +112111,13 @@ CFAL4864A-071BW OLED Display Printed Circuit Board Module
 0
 6
 6
+PCB Modules
+PCBM_EDA-05247-V1-0
+EP-DT Current Source
+
+0
+0
+0
 PCB Modules
 PCBM_ESP-WROOM-02
 Module With ESP8266EX Wi-Fi SoC With Memory Controller Including SRAM And ROM
@@ -140203,6 +140329,13 @@ SAMTEC_SEAM-50-01-X-06-X-RA-GP
 300
 300
 SAMTEC SMD
+SAMTEC_SEAM-50-01-X-08-X-RA-GP
+300 contacts (6 rows x 50 Columns) Hi-Density Right Angle Open Pin Field Connector with Guide Post Holes
+
+0
+400
+324
+SAMTEC SMD
 SAMTEC_SEAM-50-02.0-L-04-2-A-K-TR
 4 Rows x 50 Columns, 200 Contacts Male Connector
 
@@ -140503,6 +140636,20 @@ SAMTEC_SSM-103-L-SV
 0
 3
 3
+SAMTEC SMD
+SAMTEC_SSM-103-X-DV
+6 Contacts, Pitch 2.54mm, Dual Row Straight Strip Header - Insulator 1.5mm
+
+0
+6
+6
+SAMTEC SMD
+SAMTEC_SSM-104-X-DV
+8 Contacts, Pitch 2.54mm, Dual Row Straight Strip Header - Insulator 1.5mm
+
+0
+8
+8
 SAMTEC SMD
 SAMTEC_ST4-20-1.00-L-D-P-TR
 40 Contacts - Pitch 0.40 mm Razor Beam Ultra Fine Pitch Low Profile Header Strip
@@ -144633,6 +144780,76 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SoM
+KRM_4A_FAN
+KRM Series 4000 Module Fan
+
+0
+0
+0
+SoM
+KRM_4A_FAN_GUARD
+KRM Series 4000 Module Fan Guard
+
+0
+0
+0
+SoM
+KRM_4A_GENERIC
+KRM Series 4000 Module Generic Fooptrint
+
+0
+4
+4
+SoM
+KRM_4A_HEATSINK
+KRM Series 4000 Module Heatsink
+
+0
+0
+0
+SoM
+KRM_4A_HEATSPREADER
+KRM Series 4000 Module Heatspreader
+
+0
+0
+0
+SoM
+KRM_4A_VAR1_EMPTY
+KRM Series 4000 Module Generic Fooptrint
+
+0
+0
+0
+SoM
+KRM_4A_VAR1_REV_B
+KRM-4ZURF Rev.B Module (STEP)
+
+0
+0
+0
+SoM
+KRM_4A_VAR1_REV_D
+KRM-4ZURF Rev.D Module (STEP)
+
+0
+0
+0
+SoM
+X_ADF6_60
+Samtec quad row 0.635mm raster 5mm stack height
+
+0
+240
+240
+SoM
+X_B2B-XH-2
+JST 2.50 MM HEADER
+
+0
+2
+2
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -146216,6 +146433,13 @@ Body 8.3x19.3mm, Vertical Right Angle PCB Mounting, SPDT ON-NONE-ON Switch, NKK 
 0
 0
 Switches
+PB_SCHNEIDER_ZB6Y011
+Body 8.3x19.3mm, Vertical Right Angle PCB Mounting, SPDT ON-NONE-ON Switch, NKK A Series
+
+0
+0
+0
+Switches
 PB_SCHNEIDER_ZBE701
 Contact Block SPST NO, To be used with ZBZ01x Socket Adaptor
 
@@ -147104,6 +147328,13 @@ Body 11.43x12.7mm, DPDT Vertical Slide Subminiature Switch, Thru-Hole Mount
 0
 6
 6
+Switches
+SW_TWSWITCHES_JSA4 01 G0
+Body 10x2.5mm, SPDT Switch - PCB Mounting - EAO Series 1K2
+
+0
+2
+2
 Switches
 SW_TYCO_1-1437575-4
 Body 8.79 x 3.4mm, SPDT Slide Low Profile Switch, SSA Series
@@ -154814,6 +155045,13 @@ EPCOS B72220S0511K101 Metal Oxyde Varistor, Body 7.1X21.5mm
 Thermistors And Varistors
 VAR_1005X55N
 PTC Thermistors, Chip; 3.20mm L X 2.50mm W X 1.80mm H, IPC Medium Density
+
+0
+2
+2
+Thermistors And Varistors
+VAR_3220X25
+Surface Mount Varistors, Body 35.00x26mm, IPC Medium Density
 
 0
 2
