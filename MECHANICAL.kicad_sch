@@ -699,6 +699,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Fixme: Add bolts for heatsink\n"
+		(exclude_from_sim no)
+		(at 115.062 115.062 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8a4bf7eb-f91c-42ed-9fa8-4595aa2fb6a1")
+	)
 	(wire
 		(pts
 			(xy 177.8 80.01) (xy 177.8 82.55)
