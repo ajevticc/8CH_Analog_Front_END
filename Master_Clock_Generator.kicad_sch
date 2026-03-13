@@ -11634,7 +11634,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 165.1 85.09)
+			(xy 163.83 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13314,16 +13314,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 175.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d076463e-3257-4984-b0b2-d753e65acb73")
-	)
-	(wire
-		(pts
 			(xy 210.82 39.37) (xy 253.365 39.37)
 		)
 		(stroke
@@ -13594,16 +13584,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 175.26 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e19247c9-39ac-46a9-b55f-cb73ddcdcce4")
-	)
-	(wire
-		(pts
 			(xy 114.3 180.34) (xy 123.19 180.34)
 		)
 		(stroke
@@ -13834,7 +13814,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 82.55) (xy 165.1 82.55)
+			(xy 163.83 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13985,7 +13965,7 @@
 	)
 	(hierarchical_label "SYSCLOCK_62M5_1V2_P"
 		(shape output)
-		(at 281.94 39.37 0)
+		(at 281.94 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13996,7 +13976,7 @@
 	)
 	(hierarchical_label "SYSREF_7M_1V2_P"
 		(shape output)
-		(at 281.94 54.61 0)
+		(at 281.94 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14018,7 +13998,7 @@
 	)
 	(hierarchical_label "SYSREF_7M_1V2_N"
 		(shape output)
-		(at 281.94 57.15 0)
+		(at 281.94 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14040,7 +14020,7 @@
 	)
 	(hierarchical_label "SYSCLOCK_62M5_1V2_N"
 		(shape output)
-		(at 281.94 41.91 0)
+		(at 281.94 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14193,7 +14173,7 @@
 			(justify left bottom)
 		)
 		(uuid "3e15b2d9-1bbc-4a5c-bdc7-a4525a5ee9b3")
-		(property "Netclass" "ZSE_50R"
+		(property "Netclass" "50_OHM"
 			(at 301.6885 92.075 0)
 			(effects
 				(font
@@ -14224,7 +14204,7 @@
 			(justify left bottom)
 		)
 		(uuid "6243f9e7-525d-4eca-bf37-163318ced33f")
-		(property "Netclass" "ZDIFF_100R"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 268.6685 30.48 0)
 			(effects
 				(font
@@ -14255,7 +14235,7 @@
 			(justify left bottom)
 		)
 		(uuid "990935f1-45e1-45b4-a15e-330f19c68ee1")
-		(property "Netclass" "ZDIFF_100R"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 233.1085 92.71 0)
 			(effects
 				(font
@@ -17084,382 +17064,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/6e5c2cf7-bb37-4e35-90e2-c518749da846/964b5683-29d8-44be-abb5-eac5df74388f"
 					(reference "C227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN_Linux:Resistors SMD/R0402_100R_1%_0.1W_100PPM")
-		(at 172.72 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15b08fe1-267c-4f55-86aa-824ee72f23c5")
-		(property "Reference" "R212"
-			(at 169.164 75.692 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 173.99 75.692 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_PANASONIC_ERJ2RK.pdf"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "±100ppm/°C"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Resistors:Resistor - 1%"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_100R_1%_0.1W_100PPM_50V"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PANASONIC"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2013-12-12 00:00:00 +0000"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2015-03-03 00:00:00 +0000"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "ERJ2RKF1000X"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 172.72 85.09 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 168.91 82.55 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1e6c966-92ce-4ebc-aa74-25fed07a4954")
-		)
-		(pin "1"
-			(uuid "04cc173b-2524-43f8-be68-aca06d3713cd")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/6e5c2cf7-bb37-4e35-90e2-c518749da846/964b5683-29d8-44be-abb5-eac5df74388f"
-					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -21310,382 +20914,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/6e5c2cf7-bb37-4e35-90e2-c518749da846/964b5683-29d8-44be-abb5-eac5df74388f"
 					(reference "C214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN_Linux:Resistors SMD/R0402_100R_1%_0.1W_100PPM")
-		(at 172.72 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "334e23af-f635-4f42-9f0c-3b5ad7ad21e5")
-		(property "Reference" "R211"
-			(at 168.91 72.898 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 173.482 72.898 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 172.72 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_PANASONIC_ERJ2RK.pdf"
-			(at 172.72 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 172.72 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "±100ppm/°C"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Resistors:Resistor - 1%"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_100R_1%_0.1W_100PPM_50V"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PANASONIC"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2013-12-12 00:00:00 +0000"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2015-03-03 00:00:00 +0000"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "ERJ2RKF1000X"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 172.72 82.55 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 168.91 80.01 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "001e496a-a853-4ec3-aa75-c02392bbf2d4")
-		)
-		(pin "1"
-			(uuid "4ae1c33e-031c-4950-8fd1-e61637c38e2e")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/6e5c2cf7-bb37-4e35-90e2-c518749da846/964b5683-29d8-44be-abb5-eac5df74388f"
-					(reference "R211")
 					(unit 1)
 				)
 			)

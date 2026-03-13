@@ -5663,6 +5663,1022 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CERN:Resistors SMD/R0603_10K_1%_0.1W_100PPM"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Resistors SMD:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_NIC_NRC.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "R0603_10K_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "10k"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Preferred"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TC" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "R0603_10K_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "0603"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "NIC COMPONENT"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "NRC06F1002TRF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.55mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM JLC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2007-12-03 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2008-03-13 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Resistors:Resistor - 1%"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Resistors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Resistors SMD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "R0603_10K_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistors{space}SMD:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors SMD/R0603_10K_1%_0.1W_100PPM_1_0"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 6.096 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.762) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -0.762) (xy 6.096 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.524)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CERN:Resistors SMD/R0603_4K7_1%_0.1W_100PPM"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "4k7"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Resistors SMD:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_NIC_NRC.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "R0603_4K7_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "4k7"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Preferred"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TC" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "R0603_4K7_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "0603"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "NIC COMPONENT"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "NRC06F4701TRF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.55mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM JLC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2007-12-03 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2008-03-13 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Resistors:Resistor - 1%"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Resistors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Resistors SMD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "R0603_4K7_1%_0.1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "4k7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistors{space}SMD:RESC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors SMD/R0603_4K7_1%_0.1W_100PPM_1_0"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 6.096 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.762) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -0.762) (xy 6.096 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.524)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CERN:Resistors SMD/R0603_510R_1%_0.1W_100PPM"
 			(pin_numbers
 				(hide yes)
@@ -6171,130 +7187,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -6643,6 +7535,16 @@
 		)
 		(uuid "93e598a1-f33f-4e32-83dd-c072b02e3902")
 	)
+	(text "R1 = 14k7\nR2 = 4k7\nVOut = 4.99V"
+		(exclude_from_sim no)
+		(at 307.594 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aec26a86-2f78-4eda-a5ab-a73211b73b08")
+	)
 	(text "5V"
 		(exclude_from_sim no)
 		(at 388.112 81.026 0)
@@ -6658,6 +7560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01abf453-4b6b-4043-a778-d31c21b8fc9f")
+	)
+	(junction
+		(at 340.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b18653-54d9-4672-b757-b41d3fda8916")
 	)
 	(junction
 		(at 137.16 101.6)
@@ -6688,12 +7596,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18538449-e5f8-4f87-8248-e0a8ea03feb5")
-	)
-	(junction
-		(at 340.36 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "238f815a-299d-4d8c-b210-ba5c05dbf2a0")
 	)
 	(junction
 		(at 266.7 69.85)
@@ -7142,16 +8044,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 90.17) (xy 340.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2245bfb0-0d4c-4f9e-8e64-095258d70f2f")
-	)
-	(wire
-		(pts
 			(xy 313.69 163.83) (xy 313.69 165.1)
 		)
 		(stroke
@@ -7464,16 +8356,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 78.74) (xy 340.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a26a77-ff93-4421-95a9-dc8c2106a401")
-	)
-	(wire
-		(pts
 			(xy 119.38 196.85) (xy 139.7 196.85)
 		)
 		(stroke
@@ -7614,6 +8496,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "74b6a1c5-4fc2-4353-921f-b457ed82d4c9")
+	)
+	(wire
+		(pts
+			(xy 340.36 90.17) (xy 340.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7572c0ab-ed44-4f25-89a8-8c0a694a86ba")
 	)
 	(wire
 		(pts
@@ -7823,16 +8715,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 91.44) (xy 340.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d25f116-65ce-4448-b426-8246775d1643")
-	)
-	(wire
-		(pts
 			(xy 354.33 69.85) (xy 368.3 69.85)
 		)
 		(stroke
@@ -7935,6 +8817,16 @@
 			(type default)
 		)
 		(uuid "9b96edd8-d182-4eba-b062-d425f4c3a1a2")
+	)
+	(wire
+		(pts
+			(xy 340.36 91.44) (xy 340.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ddf3eb-eaf5-4d19-9f3c-cac97a148cdc")
 	)
 	(wire
 		(pts
@@ -8056,6 +8948,16 @@
 			(type default)
 		)
 		(uuid "cc258f3d-0edb-4b29-b587-c98b7cd26658")
+	)
+	(wire
+		(pts
+			(xy 340.36 78.74) (xy 340.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7196a1-7348-4194-8318-afd1a0fbe7fb")
 	)
 	(wire
 		(pts
@@ -8181,6 +9083,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 91.44) (xy 340.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a2c09a-5aeb-4282-828f-9cee26977d33")
+	)
+	(wire
+		(pts
 			(xy 340.36 101.6) (xy 340.36 105.41)
 		)
 		(stroke
@@ -8208,16 +9120,6 @@
 			(type default)
 		)
 		(uuid "f62da6e2-f9a1-4b94-b744-9a2421cb8972")
-	)
-	(wire
-		(pts
-			(xy 340.36 91.44) (xy 340.36 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6447149-14b8-442a-a422-3b77c2d06a9d")
 	)
 	(wire
 		(pts
@@ -8587,6 +9489,80 @@
 			"gpUYDAaDwWAwXyRYicFgMBgMBvNFgpUYDAaDwWAwXyRYicFgMBgMBvNFgpUYDAaDwWAwXyTylRgW"
 			"i0W90xjz6bGzs8MXGmMwGAwGQ0O+EiMSidr2AHhMa8nOzpZ4fj8Gg8FgMP9l8HISBoPBYDCYL5L/"
 			"Ay60IKXhkUVEAAAAAElFTkSuQmCC"
+		)
+	)
+	(image
+		(at 307.34 95.25)
+		(uuid "e1d60977-f1cb-4dfc-b1f3-1fc07559cada")
+		(data "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"
 		)
 	)
 	(label "-5VA"
@@ -11043,20 +12019,21 @@
 		(fields_autoplaced yes)
 		(uuid "35051e8a-7c64-43c9-9e6f-0abbd1cf88d0")
 		(property "Reference" "LD702"
-			(at 378.46 86.36 0)
+			(at 381 87.3759 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "${COLOR}"
-			(at 373.38 87.63 0)
+			(at 381 89.916 90)
 			(effects
 				(font
 					(size 1.2192 1.2192)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK"
@@ -14218,6 +15195,868 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Resistors SMD/R0603_4K7_1%_0.1W_100PPM")
+		(at 340.36 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7dd0ca-1a75-440c-a476-47794768c228")
+		(property "Reference" "R703"
+			(at 342.9 95.8849 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 342.9 98.4249 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_NIC_NRC.pdf"
+			(at 340.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 342.9 100.33 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "4k7"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "NIC COMPONENT"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "NRC06F4701TRF"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2007-12-03 00:00:00 +0000"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2008-03-13 00:00:00 +0000"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def920e2-aa2f-4e82-b6ee-37fe82de80a1")
+		)
+		(pin "2"
+			(uuid "da83b00b-454a-4874-b5d2-f10a03bac3e3")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R3203")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R4303")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R703")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R2003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0603_10K_1%_0.1W_100PPM")
+		(at 340.36 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d5fe71f-a2ed-4499-86bf-90efb150f098")
+		(property "Reference" "R702"
+			(at 342.9 84.4549 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 342.9 86.9949 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_NIC_NRC.pdf"
+			(at 340.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 342.9 88.9 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0603_10K_1%_0.1W_100PPM"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0603_10K_1%_0.1W_100PPM"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "NIC COMPONENT"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "NRC06F1002TRF"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2007-12-03 00:00:00 +0000"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2008-03-13 00:00:00 +0000"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0603_10K_1%_0.1W_100PPM"
+			(at 340.36 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bb19125-5131-4a8e-a51e-d92401797e3d")
+		)
+		(pin "1"
+			(uuid "58975fb2-44c7-4acc-948b-963a54967d8f")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R3202")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R4302")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R702")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R2002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 322.58 165.1 0)
 		(mirror y)
@@ -14790,86 +16629,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
 					(reference "#PWR02024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a8453c4-d0b3-4c30-96ed-0636ceca2bf5")
-		(property "Reference" "R702"
-			(at 338.074 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "820"
-			(at 340.36 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 342.138 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 340.36 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1818dd2d-e0f2-4a67-9ddb-e4119df1e8f4")
-		)
-		(pin "2"
-			(uuid "f101afa4-12de-43af-954b-bc0f3c295d5a")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R3202")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R4302")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R702")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R2002")
 					(unit 1)
 				)
 			)
@@ -15788,86 +17547,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
 					(reference "C2013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c8dbc3f-7d06-4a44-8393-6420823896b6")
-		(property "Reference" "R701"
-			(at 338.074 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12k"
-			(at 340.36 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 342.138 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 340.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e18b19fc-f4a1-4579-90ab-3d651faf347b")
-		)
-		(pin "2"
-			(uuid "f7ff0be2-7180-4583-a788-bceaca16874c")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R3201")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R4301")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R701")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R2001")
 					(unit 1)
 				)
 			)
@@ -16846,6 +18525,437 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
 					(reference "IC2004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0603_4K7_1%_0.1W_100PPM")
+		(at 340.36 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72acdc2c-8623-4972-9078-3e598e16c225")
+		(property "Reference" "R701"
+			(at 342.9 73.0249 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 342.9 75.5649 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_NIC_NRC.pdf"
+			(at 340.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 342.9 77.47 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "4k7"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "NIC COMPONENT"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "NRC06F4701TRF"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_NIC_NRC.pdf"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2007-12-03 00:00:00 +0000"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2008-03-13 00:00:00 +0000"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0603_4K7_1%_0.1W_100PPM"
+			(at 340.36 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72d1904-cad0-4df0-944f-1e9f6597d618")
+		)
+		(pin "2"
+			(uuid "a23063a8-736f-41c7-b43a-1d574609fcf5")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R3201")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R4301")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R701")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R2001")
 					(unit 1)
 				)
 			)
@@ -20596,166 +22706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 375.92 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afc895b0-b863-417d-b5fc-69dc48a710e9")
-		(property "Reference" "R705"
-			(at 373.634 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510"
-			(at 375.92 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 377.698 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 375.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 375.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af8b34ca-bf34-4d50-b067-b4d800caba04")
-		)
-		(pin "2"
-			(uuid "fdefe2dc-297b-4973-8617-1b4c57f5ea5d")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R3205")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R4305")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R705")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R2005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03d32bd-778a-405f-9cb9-d28e83c3a7da")
-		(property "Reference" "R703"
-			(at 338.074 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4020"
-			(at 340.36 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 342.138 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 340.36 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9176f8cf-f483-411d-8769-a7494ef51600")
-		)
-		(pin "2"
-			(uuid "140eaeec-9ffa-4591-902c-2ac512675ed0")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R3203")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R4303")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R703")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
-					(reference "R2003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 354.33 83.82 0)
 		(mirror y)
@@ -23447,6 +25397,438 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
 					(reference "#PWR02004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0603_510R_1%_0.1W_100PPM")
+		(at 375.92 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f625f681-3a67-4016-8019-2c03551a314f")
+		(property "Reference" "R706"
+			(at 378.46 74.2949 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "510"
+			(at 378.46 76.8349 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1608X55N"
+			(at 375.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0603_VISHAY_CRCW e3.pdf"
+			(at 375.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 375.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 378.46 78.74 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0603_510R_1%_0.1W_100PPM"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "510"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0603_510R_1%_0.1W_100PPM"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0603"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW0603510RFKEA"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.50mm"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0603_VISHAY_CRCW e3.pdf"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2007-12-03 00:00:00 +0000"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2018-03-21 00:00:00 +0000"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1608X55N"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0603_510R_1%_0.1W_100PPM"
+			(at 375.92 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1e0b830-38e5-4d2c-a4d4-e46ee43eb91a")
+		)
+		(pin "1"
+			(uuid "2c7b0451-735e-4382-b65e-7b062b6cab02")
+		)
+		(instances
+			(project ""
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R3206")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R4306")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R706")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8c5d0d76-dbd5-4574-a8fb-07a9fe0ebc1b"
+					(reference "R2006")
 					(unit 1)
 				)
 			)

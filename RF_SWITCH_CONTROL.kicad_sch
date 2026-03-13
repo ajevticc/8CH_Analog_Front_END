@@ -505,506 +505,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.27)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.048 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "100nF"
-				(at 3.81 -3.048 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GENERIC"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "100nF"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Component Kind" "Standard"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Component Type" "Standard"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "2"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PackageDescription" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status" "Preferred"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status Comment" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "TC" "X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Case" "0603"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounted" "Yes"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Socket" "No"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SMD" "Yes"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PressFit" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sense" "No"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sense Comment" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ComponentHeight" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Example" "PHYCOMP"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Part Number" "223858615649"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 ComponentHeight" "0.87mm"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "CERN DEM JLC"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CreateDate" "2007-12-03 00:00:00 +0000"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Database Name" "Capacitors"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Database Table Name" "Capacitors SMD"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100nF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitors{space}SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Capacitors SMD/CC0603_100NF_50V_10%_X7R_1_0"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.302 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -2.032) (xy 3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 2.032) (xy 4.318 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CERN:Inductors SMD/IND0603_MURATA_BLM18SG221TN1 [alt]"
 			(pin_numbers
 				(hide yes)
@@ -1476,7 +976,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CERN:Resistors SMD/R0402_0R_JUMPER"
+		(symbol "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1495,7 +995,7 @@
 					)
 				)
 			)
-			(property "Value" "0"
+			(property "Value" "22R6"
 				(at 3.81 -1.778 0)
 				(effects
 					(font
@@ -1512,7 +1012,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_Phycomp_RC0402.pdf"
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1521,13 +1021,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
+			(property "Description" "General Purpose Thick Film Chip Resistor"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
 				)
 			)
 			(property "Manufacturer" "GENERIC"
@@ -1540,7 +1048,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "R0402_0R_JUMPER"
+			(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1550,7 +1058,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "0"
+			(property "Comment" "22R6"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1600,7 +1108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Status" "Not Recommended"
+			(property "Status" "None"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1610,7 +1118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" ""
+			(property "Power" "0.063W"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1620,7 +1128,7 @@
 					(hide yes)
 				)
 			)
-			(property "TC" ""
+			(property "TC" "±100ppm/°C"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1640,7 +1148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" ""
+			(property "Part Description" "General Purpose Thick Film Chip Resistor"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1650,17 +1158,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "R0402_0R_JUMPER"
+			(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1760,7 +1258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(property "Manufacturer1 Example" "VISHAY"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1770,7 +1268,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer1 Part Number" "232270591001L"
+			(property "Manufacturer1 Part Number" "CRCW040222R6FK"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1790,7 +1288,7 @@
 					(hide yes)
 				)
 			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1800,7 +1298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "CERN DEM JLC"
+			(property "Author" "CERN DEM BC"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1810,7 +1308,7 @@
 					(hide yes)
 				)
 			)
-			(property "CreateDate" "2007-12-03 00:00:00 +0000"
+			(property "CreateDate" "2020-11-17 00:00:00 +0000"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1820,7 +1318,7 @@
 					(hide yes)
 				)
 			)
-			(property "LatestRevisionDate" "2012-10-17 00:00:00 +0000"
+			(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1830,7 +1328,7 @@
 					(hide yes)
 				)
 			)
-			(property "LibSymbol" "Resistors:Resistor"
+			(property "LibSymbol" "Resistors:Resistor - 1%"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1870,7 +1368,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number Nocolon" "R0402_0R_JUMPER"
+			(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1880,7 +1378,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0"
+			(property "ki_keywords" "22R6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1898,7 +1396,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Resistors SMD/R0402_0R_JUMPER_1_0"
+			(symbol "Resistors SMD/R0402_22R6_1%_0.063W_100PPM_1_0"
 				(polyline
 					(pts
 						(xy 1.524 0.762) (xy 1.524 -0.762)
@@ -8062,12 +7560,6 @@
 		(uuid "3952d0e7-1981-4c16-86e6-06bbfad82172")
 	)
 	(junction
-		(at 278.13 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f61e0f4-7b72-40af-89b2-c10d5fab4bfd")
-	)
-	(junction
 		(at 317.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8186,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 149.86) (xy 345.44 149.86)
+			(xy 339.09 149.86) (xy 355.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8260,6 +7752,17 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 162.56) (xy 355.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "0f0880b9-c2ab-456c-8384-7c81c48aea0e")
+	)
+	(wire
+		(pts
 			(xy 236.22 52.07) (xy 236.22 54.61)
 		)
 		(stroke
@@ -8301,7 +7804,18 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 162.56) (xy 345.44 162.56)
+			(xy 350.52 134.62) (xy 355.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "18a5c7f4-f48b-4307-b73f-bab2aed7b6fa")
+	)
+	(wire
+		(pts
+			(xy 339.09 162.56) (xy 342.9 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8342,7 +7856,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 121.92) (xy 345.44 121.92)
+			(xy 339.09 121.92) (xy 355.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8436,7 +7950,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 93.98) (xy 345.44 93.98)
+			(xy 339.09 93.98) (xy 355.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8477,7 +7991,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 106.68) (xy 345.44 106.68)
+			(xy 339.09 106.68) (xy 342.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8776,6 +8290,17 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 78.74) (xy 355.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 255 1)
+		)
+		(uuid "6343a377-863d-473f-9e25-3ec23a3c3581")
+	)
+	(wire
+		(pts
 			(xy 241.3 81.28) (xy 241.3 83.82)
 		)
 		(stroke
@@ -8787,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 66.04) (xy 345.44 66.04)
+			(xy 339.09 66.04) (xy 355.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8815,6 +8340,17 @@
 			(type default)
 		)
 		(uuid "67f5339c-51b7-4b07-9d66-cc071b2c2aaa")
+	)
+	(wire
+		(pts
+			(xy 339.09 78.74) (xy 342.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 255 255 1)
+		)
+		(uuid "68122a12-9ebd-4a43-8180-56bdfa1f94f6")
 	)
 	(wire
 		(pts
@@ -9038,17 +8574,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 162.56) (xy 278.13 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "9996ed98-d208-4b4d-a221-ee4d094bd4a2")
-	)
-	(wire
-		(pts
 			(xy 228.6 81.28) (xy 241.3 81.28)
 		)
 		(stroke
@@ -9266,17 +8791,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 85.09) (xy 278.13 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d4b323ab-4639-4d44-b43b-f607de6c4d38")
-	)
-	(wire
-		(pts
 			(xy 147.32 66.04) (xy 241.3 66.04)
 		)
 		(stroke
@@ -9295,17 +8809,6 @@
 			(color 0 255 255 1)
 		)
 		(uuid "d93effba-c3dd-4224-aa21-6038a23068c7")
-	)
-	(wire
-		(pts
-			(xy 339.09 78.74) (xy 345.44 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 255 255 1)
-		)
-		(uuid "d9ffc89c-442b-49fb-acad-0ed8e477a554")
 	)
 	(wire
 		(pts
@@ -9381,6 +8884,17 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 83.82) (xy 278.13 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "e49b945b-be1b-47d0-92f5-cd72bacd9832")
+	)
+	(wire
+		(pts
 			(xy 54.61 73.66) (xy 121.92 73.66)
 		)
 		(stroke
@@ -9412,7 +8926,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 134.62) (xy 345.44 134.62)
+			(xy 339.09 134.62) (xy 342.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9506,6 +9020,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 106.68) (xy 355.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fe2e63-182f-4b71-bd72-2757be51115b")
+	)
+	(wire
+		(pts
 			(xy 119.38 60.96) (xy 121.92 60.96)
 		)
 		(stroke
@@ -9526,7 +9050,7 @@
 	)
 	(hierarchical_label "RF_SW_VC1_CH_3"
 		(shape input)
-		(at 345.44 149.86 0)
+		(at 355.6 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9548,7 +9072,7 @@
 	)
 	(hierarchical_label "RF_SW_VC2_CH_0"
 		(shape input)
-		(at 345.44 78.74 0)
+		(at 355.6 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9559,7 +9083,7 @@
 	)
 	(hierarchical_label "RF_SW_VC2_CH_3"
 		(shape input)
-		(at 345.44 162.56 0)
+		(at 355.6 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9570,7 +9094,7 @@
 	)
 	(hierarchical_label "RF_SW_VC2_CH_2"
 		(shape input)
-		(at 345.44 134.62 0)
+		(at 355.6 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9581,7 +9105,7 @@
 	)
 	(hierarchical_label "RF_SW_VC2_CH_1"
 		(shape input)
-		(at 345.44 106.68 0)
+		(at 355.6 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9592,7 +9116,7 @@
 	)
 	(hierarchical_label "RF_SW_VC1_CH_1"
 		(shape input)
-		(at 345.44 93.98 0)
+		(at 355.6 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9625,7 +9149,7 @@
 	)
 	(hierarchical_label "RF_SW_VC1_CH_2"
 		(shape input)
-		(at 345.44 121.92 0)
+		(at 355.6 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9636,7 +9160,7 @@
 	)
 	(hierarchical_label "RF_SW_VC1_CH_0"
 		(shape input)
-		(at 345.44 66.04 0)
+		(at 355.6 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10107,419 +9631,6 @@
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "IC2703")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Resistors SMD/R0402_0R_JUMPER")
-		(at 331.47 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0375127e-7a67-41cd-beaf-aa0b1d227466")
-		(property "Reference" "R2705"
-			(at 335.28 64.262 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 335.28 67.818 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_0R_JUMPER"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "232270591001L"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2012-10-17 00:00:00 +0000"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Resistors:Resistor"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 66.04 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "R0402_0R_JUMPER"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Resistors"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Resistors SMD"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "R0402_0R_JUMPER"
-			(at 331.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7d8ad43-9e29-40b3-ad76-9ff33799ef5d")
-		)
-		(pin "2"
-			(uuid "984cd68c-62c9-459c-b4dd-715cb504782a")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "R2705")
-					(unit 1)
 				)
 			)
 		)
@@ -11129,32 +10240,32 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Resistors SMD/R0402_0R_JUMPER")
-		(at 331.47 93.98 0)
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF")
+		(at 123.19 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22c5b7da-02d7-46bf-a6f2-786f28d57864")
-		(property "Reference" "R2706"
-			(at 335.28 92.202 0)
+		(uuid "23331099-756a-45dd-9d4b-573af6814661")
+		(property "Reference" "C2701"
+			(at 120.142 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 335.28 95.758 0)
+		(property "Value" "100nF"
+			(at 126.238 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 93.98 0)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,8 +10273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 93.98 0)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,8 +10282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 93.98 0)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,8 +10291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "GENERIC"
-			(at 331.47 93.98 0)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11190,8 +10301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0"
-			(at 331.47 93.98 0)
+		(property "Comment" "100nF"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11201,7 +10312,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11211,17 +10322,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11231,7 +10332,17 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11241,117 +10352,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" ""
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_0R_JUMPER"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 331.47 93.98 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11361,7 +10362,77 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK105B7104KVHF"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11371,7 +10442,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11381,7 +10452,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11390,8 +10461,8 @@
 				(hide yes)
 			)
 		)
-		(property "ComponentHeight" ""
-			(at 331.47 93.98 0)
+		(property "PressFit" ""
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11400,8 +10471,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 331.47 93.98 0)
+		(property "Sense" "No"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11410,8 +10481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "232270591001L"
-			(at 331.47 93.98 0)
+		(property "Sense Comment" ""
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11420,8 +10491,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 331.47 93.98 0)
+		(property "ComponentHeight" "0.55mm"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11430,8 +10501,38 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 93.98 0)
+		(property "Manufacturer1 Example" ""
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" ""
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" ""
+			(at 123.19 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11441,7 +10542,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 331.47 93.98 0)
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11450,8 +10551,8 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 331.47 93.98 0)
+		(property "CreateDate" "2017-05-10 00:00:00 +0000"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11460,8 +10561,8 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "2012-10-17 00:00:00 +0000"
-			(at 331.47 93.98 0)
+		(property "LatestRevisionDate" "2017-05-10 00:00:00 +0000"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11470,8 +10571,8 @@
 				(hide yes)
 			)
 		)
-		(property "LibSymbol" "Resistors:Resistor"
-			(at 331.47 93.98 0)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11480,8 +10581,8 @@
 				(hide yes)
 			)
 		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 93.98 0)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 123.19 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11490,8 +10591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "R0402_0R_JUMPER"
-			(at 331.47 93.98 0)
+		(property "Part Number" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,8 +10600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Database Name" "Resistors"
-			(at 331.47 93.98 0)
+		(property "Database Name" "Capacitors"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,8 +10609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Database Table Name" "Resistors SMD"
-			(at 331.47 93.98 0)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,8 +10618,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Nocolon" "R0402_0R_JUMPER"
-			(at 331.47 93.98 0)
+		(property "Part Number Nocolon" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
+			(at 123.19 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,15 +10628,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7d3928b-4785-4de5-bc69-6dc8fe782f2a")
+			(uuid "082a46ee-8169-44cd-9ede-08e542bae8de")
 		)
 		(pin "2"
-			(uuid "2cf732ac-687f-4a7b-9c93-90795aebcfd8")
+			(uuid "507aa019-ce37-492c-a668-d990603dfd5b")
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "R2706")
+					(reference "C2701")
 					(unit 1)
 				)
 			)
@@ -11803,413 +10904,6 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "#PWR02717")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 123.19 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48c6d9fd-9ee1-4e11-866a-eea648d8c5bb")
-		(property "Reference" "C2701"
-			(at 120.142 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 126.238 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 123.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 123.19 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "679f9425-7d1a-4a08-af7a-045d33cbb110")
-		)
-		(pin "1"
-			(uuid "65283f8d-5d6f-485a-a027-f3273223cb1d")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "C2701")
 					(unit 1)
 				)
 			)
@@ -12994,6 +11688,838 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "L2702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 331.47 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51418db9-9e6d-48e8-ad42-da68d6b0dd5e")
+		(property "Reference" "R2707"
+			(at 335.28 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 335.28 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 335.28 129.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 121.92 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d56dbc6-2db6-444c-8a67-1b2c9893b89b")
+		)
+		(pin "1"
+			(uuid "2beac166-4f4d-4533-a1e7-9dcf5b96a706")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 342.9 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "555dc6dc-c8af-4d23-b3d0-078e34a3f642")
+		(property "Reference" "R2712"
+			(at 346.71 165.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 346.71 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 346.71 170.18 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 162.56 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2081871c-d6eb-44db-87eb-35320afdaa56")
+		)
+		(pin "1"
+			(uuid "c61170dc-bbe9-4814-ade5-0431159eb798")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2712")
 					(unit 1)
 				)
 			)
@@ -14297,6 +13823,422 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "IC2701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 342.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65651e1e-ed22-4d9e-8030-c8b39cdcdb6d")
+		(property "Reference" "R2710"
+			(at 346.71 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 346.71 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 346.71 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 106.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43c16095-94b3-4371-ae1a-6d61bf095a69")
+		)
+		(pin "1"
+			(uuid "451963eb-b98f-454d-be5c-cd670c92d675")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2710")
 					(unit 1)
 				)
 			)
@@ -15645,419 +15587,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Resistors SMD/R0402_0R_JUMPER")
-		(at 331.47 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69019dc4-067b-4e6b-97ef-539044a6c3ae")
-		(property "Reference" "R2707"
-			(at 335.28 120.142 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 335.28 123.698 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "0"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_0R_JUMPER"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "232270591001L"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2012-10-17 00:00:00 +0000"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Resistors:Resistor"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 121.92 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "R0402_0R_JUMPER"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Resistors"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Resistors SMD"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "R0402_0R_JUMPER"
-			(at 331.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "383aa07f-acb2-4b54-b290-03ec4761ab22")
-		)
-		(pin "2"
-			(uuid "c5f2588e-690a-4409-9f54-5b7200a7ad35")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "R2707")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 86.36 0)
 		(unit 1)
@@ -16594,24 +16123,25 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Resistors SMD/R0402_0R_JUMPER")
-		(at 331.47 149.86 0)
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 331.47 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d4ff0b4-5150-4bee-956c-2f03d7b0a484")
-		(property "Reference" "R2708"
-			(at 335.28 148.082 0)
+		(fields_autoplaced yes)
+		(uuid "7c9e0179-6598-453f-ae6f-675483cbfd5c")
+		(property "Reference" "R2706"
+			(at 335.28 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 335.28 151.638 0)
+		(property "Value" "22R6"
+			(at 335.28 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16619,7 +16149,7 @@
 			)
 		)
 		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16627,8 +16157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 149.86 0)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,17 +16166,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 149.86 0)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 335.28 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16655,8 +16193,18 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "0"
-			(at 331.47 149.86 0)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 93.98 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16666,7 +16214,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16676,7 +16224,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16686,7 +16234,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16696,7 +16244,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16705,8 +16253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "Not Recommended"
-			(at 331.47 149.86 0)
+		(property "Status" "None"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16715,8 +16263,8 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
-			(at 331.47 149.86 0)
+		(property "Power" "0.063W"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16725,8 +16273,8 @@
 				(hide yes)
 			)
 		)
-		(property "TC" ""
-			(at 331.47 149.86 0)
+		(property "TC" "±100ppm/°C"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16736,7 +16284,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16745,8 +16293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 331.47 149.86 0)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16755,18 +16303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 331.47 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_0R_JUMPER"
-			(at 331.47 149.86 0)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16776,7 +16314,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16786,7 +16324,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16796,7 +16334,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16806,7 +16344,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16816,7 +16354,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16826,7 +16364,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16836,7 +16374,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16846,7 +16384,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16856,7 +16394,7 @@
 			)
 		)
 		(property "ComponentHeight" ""
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16865,8 +16403,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 331.47 149.86 0)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16875,8 +16413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "232270591001L"
-			(at 331.47 149.86 0)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16886,7 +16424,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16895,8 +16433,8 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 331.47 149.86 0)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16905,8 +16443,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM JLC"
-			(at 331.47 149.86 0)
+		(property "Author" "CERN DEM BC"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16915,8 +16453,8 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 331.47 149.86 0)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16925,8 +16463,8 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "2012-10-17 00:00:00 +0000"
-			(at 331.47 149.86 0)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16935,8 +16473,8 @@
 				(hide yes)
 			)
 		)
-		(property "LibSymbol" "Resistors:Resistor"
-			(at 331.47 149.86 0)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16946,7 +16484,7 @@
 			)
 		)
 		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
 			(show_name yes)
 			(effects
 				(font
@@ -16955,17 +16493,9 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "R0402_0R_JUMPER"
-			(at 331.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Database Name" "Resistors"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16974,7 +16504,8 @@
 			)
 		)
 		(property "Database Table Name" "Resistors SMD"
-			(at 331.47 149.86 0)
+			(at 331.47 93.98 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16982,25 +16513,26 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Nocolon" "R0402_0R_JUMPER"
-			(at 331.47 149.86 0)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 93.98 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "dce255e2-ef0e-4082-bc48-44badcba5260")
 		)
 		(pin "2"
-			(uuid "075eebb4-9b68-4827-9225-48da7bfa7334")
+			(uuid "f86b0c17-a6b9-4011-a868-32bf22adafd3")
+		)
+		(pin "1"
+			(uuid "87330e50-935b-4d49-95f5-765ccbf0a091")
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "R2708")
+					(reference "R2706")
 					(unit 1)
 				)
 			)
@@ -17785,6 +17317,422 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "#PWR02709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 342.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0cdc9d3-1138-450c-80b4-9cc7765f3288")
+		(property "Reference" "R2711"
+			(at 346.71 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 346.71 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 346.71 142.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 342.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a848cce5-3fea-40e2-a60d-83787277100f")
+		)
+		(pin "1"
+			(uuid "53e1ec5b-b928-4c55-987e-b2c9255ab82a")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2711")
 					(unit 1)
 				)
 			)
@@ -18763,6 +18711,409 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF")
+		(at 137.16 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2dcd91a-3df3-4acf-aa37-148b0f0391b8")
+		(property "Reference" "C2702"
+			(at 134.112 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 140.208 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor (High Dielectric Type) for Automotive / Industrial Applications"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK105B7104KVHF"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" "0.55mm"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" ""
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_TAIYO-YUDEN_TMK105B7104KVHF.pdf"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-05-10 00:00:00 +0000"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-05-10 00:00:00 +0000"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 137.16 114.3 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_25V_10%_X7R_YUDEN_TMK105B7104KVHF"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e40d13e-51d2-4a8e-a7f4-402a0b464dfa")
+		)
+		(pin "2"
+			(uuid "39072a67-167f-4187-87ce-7d6554110b7c")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "C2702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 137.16 106.68 0)
 		(unit 1)
@@ -18963,32 +19314,33 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 137.16 114.3 90)
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 331.47 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de58103e-dc1d-4f55-b810-e332a14be239")
-		(property "Reference" "C2702"
-			(at 134.112 110.49 0)
+		(fields_autoplaced yes)
+		(uuid "e1a049ae-b4ae-4bd3-9260-05ddb242ad2a")
+		(property "Reference" "R2705"
+			(at 335.28 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 140.208 110.49 0)
+		(property "Value" "22R6"
+			(at 335.28 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 137.16 114.3 0)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18996,8 +19348,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 137.16 114.3 0)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19005,17 +19357,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 137.16 114.3 0)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 335.28 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19024,8 +19384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 137.16 114.3 0)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19034,8 +19394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "100nF"
-			(at 137.16 114.3 0)
+		(property "Comment" "22R6"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19045,7 +19405,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19055,17 +19415,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 137.16 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19075,7 +19425,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19084,8 +19434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "Preferred"
-			(at 137.16 114.3 0)
+		(property "Pin Count" "2"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19094,8 +19444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Status Comment" ""
-			(at 137.16 114.3 0)
+		(property "Status" "None"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19104,8 +19454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 137.16 114.3 0)
+		(property "Power" "0.063W"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19114,8 +19464,8 @@
 				(hide yes)
 			)
 		)
-		(property "TC" "X7R"
-			(at 137.16 114.3 0)
+		(property "TC" "±100ppm/°C"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19124,8 +19474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "±10%"
-			(at 137.16 114.3 0)
+		(property "Voltage" ""
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19134,8 +19484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 137.16 114.3 0)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19144,8 +19494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 137.16 114.3 0)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19154,8 +19504,18 @@
 				(hide yes)
 			)
 		)
-		(property "Case" "0603"
-			(at 137.16 114.3 0)
+		(property "Case" "0402"
+			(at 331.47 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19165,47 +19525,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 137.16 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 137.16 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 137.16 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 137.16 114.3 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19215,7 +19535,47 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 331.47 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 331.47 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 331.47 66.04 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19225,7 +19585,7 @@
 			)
 		)
 		(property "ComponentHeight" ""
-			(at 137.16 114.3 0)
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19234,8 +19594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 137.16 114.3 0)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19244,8 +19604,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 137.16 114.3 0)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19254,8 +19614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 137.16 114.3 0)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19264,8 +19624,8 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 137.16 114.3 0)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19274,8 +19634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM JLC"
-			(at 137.16 114.3 0)
+		(property "Author" "CERN DEM BC"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19284,8 +19644,8 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 137.16 114.3 0)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19294,8 +19654,8 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 137.16 114.3 0)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19304,8 +19664,8 @@
 				(hide yes)
 			)
 		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 137.16 114.3 0)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19314,8 +19674,8 @@
 				(hide yes)
 			)
 		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 137.16 114.3 0)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19324,8 +19684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Database Name" "Capacitors"
-			(at 137.16 114.3 0)
+		(property "Database Name" "Resistors"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19334,8 +19694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 137.16 114.3 0)
+		(property "Database Table Name" "Resistors SMD"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19344,8 +19704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 137.16 114.3 0)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 66.04 0)
 			(show_name yes)
 			(effects
 				(font
@@ -19355,15 +19715,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "089681fc-f4a7-433f-897d-33182157ad7b")
+			(uuid "2870a0fc-3b7c-4822-811d-d5312cda9e48")
 		)
 		(pin "1"
-			(uuid "bb172bea-a4fd-4e09-af24-e0dfb63fc8bd")
+			(uuid "346e5334-5659-4be3-a2a7-08d154949520")
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
-					(reference "C2702")
+					(reference "R2705")
 					(unit 1)
 				)
 			)
@@ -19431,6 +19791,838 @@
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
 					(reference "#PWR02707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 331.47 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3d04471-ffd9-4e25-87b7-413743ab252f")
+		(property "Reference" "R2708"
+			(at 335.28 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 335.28 157.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 331.47 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc3bf876-efa7-4efc-986f-a19a48e7dc3f")
+		)
+		(pin "1"
+			(uuid "bb2df766-3932-42f1-ac4a-518e84634b82")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
+		(at 350.52 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5a6ed5a-1115-4897-9ec4-1b301b5f2fcb")
+		(property "Reference" "R2709"
+			(at 346.71 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "22R6"
+			(at 346.71 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 350.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
+			(at 350.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 350.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "22R6"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.063W"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "VISHAY"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2020-11-17 00:00:00 +0000"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
+			(at 350.52 78.74 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b63d0d38-7124-4719-8c40-7eb2b1f32686")
+		)
+		(pin "1"
+			(uuid "0f4d2f5a-4b14-4fe2-997b-4a58e2ff0edf")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e1bc8eb5-1b45-4220-9961-d777b4d01cb8"
+					(reference "R2709")
 					(unit 1)
 				)
 			)

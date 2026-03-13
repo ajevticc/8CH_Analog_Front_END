@@ -5,6 +5,506 @@
 	(uuid "5843a7a9-c632-41bd-a847-2692efb1516d")
 	(paper "A3")
 	(lib_symbols
+		(symbol "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "100nF"
+				(at 3.81 -3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "100nF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "None"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TC" "X7R"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "0402"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "MURATA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.55mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM MR"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2017-06-30 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Capacitors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Capacitors SMD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitors{space}SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitors SMD/CC0402_100NF_50V_10%_X7R_1_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.302 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.032) (xy 3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 2.032) (xy 4.318 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G"
 			(pin_numbers
 				(hide yes)
@@ -418,506 +918,6 @@
 				)
 			)
 			(symbol "Capacitors SMD/CC0402_1NF_50V_5%_C0G_1_0"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.302 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -2.032) (xy 3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 2.032) (xy 4.318 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.27)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.048 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "100nF"
-				(at 3.81 -3.048 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GENERIC"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "100nF"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Component Kind" "Standard"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Component Type" "Standard"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "2"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PackageDescription" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status" "Preferred"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Status Comment" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "TC" "X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Case" "0603"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounted" "Yes"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Socket" "No"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SMD" "Yes"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PressFit" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sense" "No"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sense Comment" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ComponentHeight" ""
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Example" "PHYCOMP"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Part Number" "223858615649"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 ComponentHeight" "0.87mm"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "CERN DEM JLC"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CreateDate" "2007-12-03 00:00:00 +0000"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Database Name" "Capacitors"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Database Table Name" "Capacitors SMD"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-				(at 0 0 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "100nF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitors{space}SMD:CAPC1608X87N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Capacitors SMD/CC0603_100NF_50V_10%_X7R_1_0"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.302 0)
@@ -3779,12 +3779,6 @@
 		(uuid "efe957a9-bda4-483b-957b-414f5eb9133a")
 	)
 	(junction
-		(at 389.89 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f530473e-2196-4e3b-ac1a-94bd69f94544")
-	)
-	(junction
 		(at 116.84 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3795,6 +3789,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8afb085-12fc-4ccc-9217-ca3291d3dd4d")
+	)
+	(no_connect
+		(at 222.25 195.58)
+		(uuid "3b4c1b83-ee8a-49af-9bd6-eef8ef1eb922")
 	)
 	(no_connect
 		(at 156.21 198.12)
@@ -4153,16 +4151,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 222.25) (xy 378.46 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "152e099e-cba7-4c46-9f47-328a95074f4d")
-	)
-	(wire
-		(pts
 			(xy 222.25 30.48) (xy 224.79 30.48)
 		)
 		(stroke
@@ -4273,23 +4261,13 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 215.9) (xy 389.89 222.25)
+			(xy 389.89 215.9) (xy 389.89 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f87580c-62bc-458b-8556-9ec038af3db7")
-	)
-	(wire
-		(pts
-			(xy 294.64 195.58) (xy 316.23 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22526634-9d8b-4fb9-8c67-c523c2bf4d88")
 	)
 	(wire
 		(pts
@@ -4502,16 +4480,6 @@
 			(type default)
 		)
 		(uuid "31af97e3-b451-48de-9369-c2ad5f57c970")
-	)
-	(wire
-		(pts
-			(xy 386.08 222.25) (xy 389.89 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3233b861-d962-4510-a7b7-1539cf6933aa")
 	)
 	(wire
 		(pts
@@ -5597,16 +5565,6 @@
 			(type default)
 		)
 		(uuid "86df695c-329a-438d-a3e6-c942761b3521")
-	)
-	(wire
-		(pts
-			(xy 316.23 195.58) (xy 316.23 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8836d1a4-2d8a-4f93-bd83-901f7c7e841d")
 	)
 	(wire
 		(pts
@@ -6742,16 +6700,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 195.58) (xy 287.02 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db6c5d26-ade8-47f8-b34f-077313cff24a")
-	)
-	(wire
-		(pts
 			(xy 386.08 118.11) (xy 389.89 118.11)
 		)
 		(stroke
@@ -7256,16 +7204,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 222.25) (xy 389.89 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc18a1fa-9921-42fe-b7df-70ddc2fc96db")
-	)
-	(wire
-		(pts
 			(xy 247.65 107.95) (xy 331.47 107.95)
 		)
 		(stroke
@@ -7335,40 +7273,7 @@
 		)
 		(uuid "fff5240e-fde5-4a94-b37b-448c106b7858")
 	)
-	(hierarchical_label "DAC_DIR_V1_CH"
-		(shape output)
-		(at 334.01 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "070d6c29-8427-4e1b-a1c0-11c7d3092a0f")
-	)
-	(hierarchical_label "C1_1dB"
-		(shape output)
-		(at 334.01 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cbb371d-bed6-44ea-ac57-352e0912a621")
-	)
-	(hierarchical_label "OPAMP_BYPASS_V2_CH"
-		(shape output)
-		(at 334.01 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15bd2995-8c47-4ce6-909d-728403feace3")
-	)
-	(hierarchical_label "A2"
+	(hierarchical_label "IO_3V3_2"
 		(shape output)
 		(at 334.01 189.23 0)
 		(effects
@@ -7379,18 +7284,7 @@
 		)
 		(uuid "1689688c-7b65-47c1-a0ae-4a73e6ed42ef")
 	)
-	(hierarchical_label "OPAMP_BYPASS_V1_CH"
-		(shape output)
-		(at 334.01 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1689d0e8-9ef4-478b-b3f6-1711168caaca")
-	)
-	(hierarchical_label "A6"
+	(hierarchical_label "IO_3V3_6"
 		(shape output)
 		(at 334.01 214.63 0)
 		(effects
@@ -7401,7 +7295,7 @@
 		)
 		(uuid "1a3f94be-6ba9-4d9c-9dfa-b7099a4e2f6b")
 	)
-	(hierarchical_label "A3"
+	(hierarchical_label "IO_3V3_3"
 		(shape output)
 		(at 334.01 195.58 0)
 		(effects
@@ -7412,29 +7306,51 @@
 		)
 		(uuid "2e079912-41e9-4304-80bd-ce6d82e4e373")
 	)
-	(hierarchical_label "DAC_DIR_V2_CH"
+	(hierarchical_label "IO_5V_9"
 		(shape output)
-		(at 334.01 72.39 0)
+		(at 334.01 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "49b18ee3-ebfc-4bb0-ae6d-be745aecc040")
+		(uuid "3b008773-1bab-46d4-9c4f-b6fbfb25d9e5")
 	)
-	(hierarchical_label "CAL_MEAS_SW_VC2_CH"
+	(hierarchical_label "IO_5V_15"
 		(shape output)
-		(at 334.01 40.64 0)
+		(at 334.01 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "592e513d-8a2e-46cd-abde-623236ddac36")
+		(uuid "40185247-2643-47f2-a9c6-7235501be67f")
 	)
-	(hierarchical_label "CAL_MEAS_SW_VC1_CH"
+	(hierarchical_label "IO_5V_2"
+		(shape output)
+		(at 334.01 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44625a1b-e1fa-4cf6-b64d-2cf15ff64c02")
+	)
+	(hierarchical_label "IO_5V_10"
+		(shape output)
+		(at 334.01 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "629587be-ada1-4026-bf19-9b372f3996cf")
+	)
+	(hierarchical_label "IO_5V_0"
 		(shape output)
 		(at 334.01 34.29 0)
 		(effects
@@ -7445,18 +7361,7 @@
 		)
 		(uuid "639deb93-5d6e-49e4-ba53-c4ff1cd4886f")
 	)
-	(hierarchical_label "C4_4dB"
-		(shape output)
-		(at 334.01 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a43f8f3-04c8-4fdc-ba91-e5f924e8b4dd")
-	)
-	(hierarchical_label "C8_8dB"
+	(hierarchical_label "IO_5V_11"
 		(shape output)
 		(at 334.01 123.19 0)
 		(effects
@@ -7465,20 +7370,20 @@
 			)
 			(justify left)
 		)
-		(uuid "7018ba52-024f-457a-8bdb-cb4756f8fa7e")
+		(uuid "6af76b6f-a2ae-4c67-90c0-201bc4531953")
 	)
-	(hierarchical_label "1BITTTEN_VC1_CH"
+	(hierarchical_label "IO_5V_6"
 		(shape output)
-		(at 334.01 129.54 0)
+		(at 334.01 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "74c559a6-c5ab-4c93-947e-d88f1ceae8ba")
+		(uuid "76ceca08-d4be-494e-bd04-61ae014a74f6")
 	)
-	(hierarchical_label "A4"
+	(hierarchical_label "IO_3V3_4"
 		(shape output)
 		(at 334.01 201.93 0)
 		(effects
@@ -7488,6 +7393,39 @@
 			(justify left)
 		)
 		(uuid "811b1a55-8a5d-48a5-97bd-1f8e9858df77")
+	)
+	(hierarchical_label "IO_5V_5"
+		(shape output)
+		(at 334.01 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82227c4c-951d-4c63-9ce7-9fd8d329ee50")
+	)
+	(hierarchical_label "IO_5V_12"
+		(shape output)
+		(at 334.01 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84e6c735-a2ac-45a1-bd8b-be61315c0d8b")
+	)
+	(hierarchical_label "IO_5V_7"
+		(shape output)
+		(at 334.01 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9064bbc2-e503-4b73-ac7a-275bf61344da")
 	)
 	(hierarchical_label "SER_RCLK"
 		(shape input)
@@ -7500,7 +7438,7 @@
 		)
 		(uuid "970e2dbf-65a1-460f-83b6-3b90b0e10b9e")
 	)
-	(hierarchical_label "A5"
+	(hierarchical_label "IO_3V3_5"
 		(shape output)
 		(at 334.01 208.28 0)
 		(effects
@@ -7511,7 +7449,7 @@
 		)
 		(uuid "9f7ea2b8-0247-489c-ac7c-a2efb4cb5ce8")
 	)
-	(hierarchical_label "A0"
+	(hierarchical_label "IO_3V3_0"
 		(shape output)
 		(at 334.01 176.53 0)
 		(effects
@@ -7522,16 +7460,38 @@
 		)
 		(uuid "b1036922-4f1e-4d3a-9944-08d81e955d0b")
 	)
-	(hierarchical_label "C2_2dB"
+	(hierarchical_label "IO_5V_13"
 		(shape output)
-		(at 334.01 110.49 0)
+		(at 334.01 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ce731bba-fa8e-4ab5-80a6-ebe68e5ce35a")
+		(uuid "c0985def-3182-4c73-bf36-4bdc219ca45f")
+	)
+	(hierarchical_label "IO_5V_14"
+		(shape output)
+		(at 334.01 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9621c6f-655a-4e7c-8e2a-b8272599c969")
+	)
+	(hierarchical_label "IO_5V_1"
+		(shape output)
+		(at 334.01 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d030ca15-3956-4644-acc8-ea6ecba0e3d7")
 	)
 	(hierarchical_label "SER_DATA_IN"
 		(shape input)
@@ -7555,18 +7515,18 @@
 		)
 		(uuid "e56c4910-fc54-4c5d-9837-df258de236db")
 	)
-	(hierarchical_label "1BITTTEN_VC2_CH"
+	(hierarchical_label "IO_5V_3"
 		(shape output)
-		(at 334.01 135.89 0)
+		(at 334.01 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "eb48d19b-a25e-40bb-8dba-8b15eaf0ed4a")
+		(uuid "e8b1aa3d-3828-4a02-89b1-f75385a4399b")
 	)
-	(hierarchical_label "A1"
+	(hierarchical_label "IO_3V3_1"
 		(shape output)
 		(at 334.01 182.88 0)
 		(effects
@@ -7587,6 +7547,28 @@
 			(justify right)
 		)
 		(uuid "fccff1cb-c615-48ac-b981-f9614773a2d5")
+	)
+	(hierarchical_label "IO_5V_4"
+		(shape output)
+		(at 334.01 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe1e14e3-52c0-4d17-87cf-66d05c9c814a")
+	)
+	(hierarchical_label "IO_5V_8"
+		(shape output)
+		(at 334.01 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffbf645e-56a3-45b8-882a-ea8d1a6b943c")
 	)
 	(symbol
 		(lib_id "CERN:Standard Logic/SN74LV595ARGYR")
@@ -9558,6 +9540,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 252.73 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063b14bb-1e63-48e8-bbf2-40c1f82fb51f")
+		(property "Reference" "C9"
+			(at 256.54 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 68.5799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 252.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 252.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 252.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2efc9c0c-5b5a-4677-a962-96564d04b020")
+		)
+		(pin "2"
+			(uuid "b596ef31-5b39-4ab0-9a9c-4dae814e91ac")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 190.5 172.72 90)
 		(mirror x)
@@ -9648,449 +10068,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "#PWR02316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
-		(at 287.02 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "098c845b-8965-4981-b66f-4627e4875efb")
-		(property "Reference" "R1624"
-			(at 290.83 193.802 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "22R6"
-			(at 290.83 197.358 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 287.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R0402_VISHAY_CRCW e3.pdf"
-			(at 287.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 287.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 290.83 195.58 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "R0402_22R6_1%_0.063W_100PPM"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "22R6"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "None"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.063W"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "±100ppm/°C"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_22R6_1%_0.063W_100PPM"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "VISHAY"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "CRCW040222R6FK"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM BC"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2020-11-17 00:00:00 +0000"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2020-11-17 00:00:00 +0000"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Resistors:Resistor - 1%"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Resistors SMD:RESC1005X40N"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Resistors"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Resistors SMD"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "R0402_22R6_1%_0.063W_100PPM"
-			(at 287.02 195.58 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bc762c8-d746-4ab6-815e-b6adb8f97adf")
-		)
-		(pin "1"
-			(uuid "f5c2f8da-52ff-42fc-8ada-b9f849f4af4c")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "R3624")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "R3524")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "R4724")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "R4624")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "R1724")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "R1624")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "R2424")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "R2324")
 					(unit 1)
 				)
 			)
@@ -10969,441 +10946,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "R2315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 252.73 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1389280b-a81a-475b-9d16-120988da9889")
-		(property "Reference" "C1608"
-			(at 249.682 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 255.778 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 252.73 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 252.73 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 252.73 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac5e6ef5-4c3a-45b7-a26f-1ff6e391de41")
-		)
-		(pin "1"
-			(uuid "310e8ba5-7994-44af-addd-ccd685257164")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3608")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3508")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4708")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4608")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1708")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1608")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2408")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2308")
 					(unit 1)
 				)
 			)
@@ -14517,441 +14059,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 245.11 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c2d2411-b9cf-4be6-b45a-5ca71b6d69e7")
-		(property "Reference" "C1606"
-			(at 242.062 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 248.158 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 245.11 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 245.11 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b866166-e487-4523-a73d-a5bf50a9ed4e")
-		)
-		(pin "1"
-			(uuid "f5eaa4bc-498e-4af0-b894-fa10879ae530")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3606")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3506")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4706")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4606")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1706")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1606")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2406")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 208.28 0)
 		(mirror y)
@@ -15135,441 +14242,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "#PWR02325")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 257.81 233.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "434c7d66-88c7-455a-a8b9-3ab3870d0ed0")
-		(property "Reference" "C1609"
-			(at 254.762 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 260.858 229.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 257.81 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 257.81 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 257.81 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 257.81 233.68 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "191681a6-4b16-427f-b909-3cd311b4a490")
-		)
-		(pin "1"
-			(uuid "f000fc07-12ca-4569-a68b-b557b9cc6819")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3609")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3509")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4709")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4609")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1709")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1609")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2409")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2309")
 					(unit 1)
 				)
 			)
@@ -20569,6 +19241,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 116.84 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c00e92-40c7-4a9b-ad62-a27c774d51fc")
+		(property "Reference" "C49"
+			(at 120.65 208.2799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 120.65 210.8199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 213.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edae7407-58fa-4198-8456-b1754a60b2a2")
+		)
+		(pin "2"
+			(uuid "e7000446-e0cc-47cb-b1ad-f92e196f7163")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 252.73 142.24 0)
 		(unit 1)
@@ -21244,441 +20354,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "IC2303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 116.84 213.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8095ac91-c6a1-46d2-899b-d309a3e86729")
-		(property "Reference" "C1603"
-			(at 113.792 209.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 119.888 209.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 213.36 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c18784cd-2a15-4461-b517-ae912297f2d2")
-		)
-		(pin "1"
-			(uuid "45c385f7-f25e-4f05-9930-743c57316937")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3603")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3503")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4703")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4603")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1703")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1603")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2403")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2303")
 					(unit 1)
 				)
 			)
@@ -24415,6 +23090,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 116.84 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d1f64f0-f9fa-452c-adf1-6da76f312889")
+		(property "Reference" "C73"
+			(at 120.65 135.8899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 120.65 138.4299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 140.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "343be85b-79fe-49a1-8d29-d8f791338551")
+		)
+		(pin "2"
+			(uuid "3f465e55-0d21-4ec4-9d19-4ca40090b90d")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C78")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C77")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C80")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C79")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C73")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G")
 		(at 378.46 118.11 0)
 		(unit 1)
@@ -25225,441 +24338,6 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "#PWR02321")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 116.84 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0c170bd-b8b3-41ab-beb6-efcfc24d1f6f")
-		(property "Reference" "C1602"
-			(at 113.792 137.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 119.888 137.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 140.97 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93945fd0-a410-4d44-b2ad-e0f46e41233b")
-		)
-		(pin "1"
-			(uuid "cf4ef997-92a2-4c1d-9b66-4b73f9e50fdb")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3602")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3502")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4702")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4602")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1702")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1602")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2402")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2302")
 					(unit 1)
 				)
 			)
@@ -26916,441 +25594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 240.03 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a75656bf-899a-4fde-b2fb-fa81180e6c7d")
-		(property "Reference" "C1604"
-			(at 236.982 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 243.078 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 240.03 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 240.03 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 240.03 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21777252-be3f-4f5c-a33f-2017e2357c56")
-		)
-		(pin "1"
-			(uuid "5cdc267e-e709-4de0-81b0-ad05d124b8dc")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3604")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3504")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4704")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4604")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1704")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1604")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2404")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
 		(at 240.03 107.95 0)
 		(unit 1)
@@ -27794,441 +26037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 240.03 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9e061f6-aba3-4e7f-a311-0a22c9f573ed")
-		(property "Reference" "C1605"
-			(at 236.982 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 243.078 146.05 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 240.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 240.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 240.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 240.03 149.86 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2327fa3e-1e36-4712-818e-7f5c37fb0bee")
-		)
-		(pin "1"
-			(uuid "7f9f4cb1-c192-4856-93dc-04ce6aaf1774")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3605")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3505")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4705")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4605")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1705")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1605")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2405")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5VA")
 		(at 101.6 127 0)
 		(unit 1)
@@ -28413,6 +26221,444 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "#PWR02338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 252.73 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add43def-cd25-4dc0-bfe5-f8ee95ea56cc")
+		(property "Reference" "C18"
+			(at 256.54 144.7799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 147.3199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 252.73 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 252.73 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 252.73 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 252.73 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf3e0b3-ac15-43ab-8de0-718684f9d105")
+		)
+		(pin "2"
+			(uuid "1a6c4d3b-70da-4c0c-a885-6f07a9411ab7")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -32222,6 +30468,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 240.03 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a6eca8-f98e-481a-b7eb-26e53ad61d36")
+		(property "Reference" "C17"
+			(at 243.84 144.7799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 243.84 147.3199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 149.86 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b801669-5063-4356-ba0d-a0ddb01fb4d3")
+		)
+		(pin "2"
+			(uuid "3f7f431a-1b13-465e-a2aa-91ccb7e586fe")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
 		(at 233.68 177.8 0)
 		(unit 1)
@@ -33551,441 +32235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 252.73 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2b32f76-b36f-4681-a7e0-5b40edb86676")
-		(property "Reference" "C1607"
-			(at 249.682 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 255.778 67.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 252.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 252.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 252.73 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "100nF"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 252.73 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71fe59e3-838c-4409-9e0a-25b51521584d")
-		)
-		(pin "1"
-			(uuid "d9463364-eafe-4be2-a0d4-5dc98a4e2b73")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3607")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3507")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4707")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4607")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1707")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1607")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2407")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 135.89 0)
 		(mirror y)
@@ -34516,6 +32765,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 257.81 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d563cb5d-0648-4827-a82d-89a5cebc82e3")
+		(property "Reference" "C34"
+			(at 261.62 228.5999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 261.62 231.1399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 257.81 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 257.81 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 257.81 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 257.81 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dff368b-52f2-4567-a15a-ec5c30f35268")
+		)
+		(pin "2"
+			(uuid "96b1a41e-2c45-42bd-b1ad-74e8d4ce6787")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 389.89 158.75 0)
 		(unit 1)
@@ -35039,6 +33726,444 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
 					(reference "C2314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 116.84 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbc3475f-c61d-4c38-9c9e-868acf4bd6f6")
+		(property "Reference" "C81"
+			(at 120.65 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 120.65 68.5799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 116.84 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1e888f4-d09e-4776-b734-fab3679d2cc6")
+		)
+		(pin "2"
+			(uuid "30bfd531-77b9-4db3-a5b3-a5e4cc0eb490")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C86")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C85")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C88")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C87")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C82")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C81")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C84")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -37195,6 +36320,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 245.11 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a48615-7cba-408c-b4cb-de80b734a0a2")
+		(property "Reference" "C33"
+			(at 248.92 228.5999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 248.92 231.1399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 245.11 233.68 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a969df7-363d-4a46-8de6-8c9e3eac7240")
+		)
+		(pin "2"
+			(uuid "1cb15047-1d14-4637-9a00-c36befd56dd9")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CERN:Resistors SMD/R0402_22R6_1%_0.063W_100PPM")
 		(at 270.51 48.26 0)
 		(unit 1)
@@ -37732,32 +37295,35 @@
 		)
 	)
 	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0603_100NF_50V_10%_X7R")
-		(at 116.84 71.12 90)
+		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
+		(at 240.03 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee0b7772-a86d-4838-88a1-57c8897cc8ba")
-		(property "Reference" "C1601"
-			(at 113.792 67.31 0)
+		(fields_autoplaced yes)
+		(uuid "ef3815aa-3b2e-436e-b9dc-d0036aa038fd")
+		(property "Reference" "C1"
+			(at 243.84 66.0399 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 119.888 67.31 0)
+			(at 243.84 68.5799 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 71.12 0)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37765,8 +37331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 71.12 0)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37775,7 +37341,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37784,7 +37350,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37793,8 +37359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 71.12 0)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37804,7 +37370,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37814,7 +37380,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37824,7 +37390,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37834,7 +37400,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37844,7 +37410,7 @@
 			)
 		)
 		(property "PackageDescription" ""
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37853,8 +37419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Status" "Preferred"
-			(at 116.84 71.12 0)
+		(property "Status" "None"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37864,7 +37430,7 @@
 			)
 		)
 		(property "Status Comment" ""
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37874,7 +37440,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37884,7 +37450,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37894,7 +37460,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37904,7 +37470,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 116.84 71.12 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -37913,443 +37479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Case" "0603"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PressFit" ""
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" ""
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" ""
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858615649"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.87mm"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0603_X7R_PHYCOMP.pdf"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "CERN DEM JLC"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "2007-12-03 00:00:00 +0000"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibFootprint" "Capacitors SMD:CAPC1608X87N"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Name" "Capacitors"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors SMD"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number Nocolon" "CC0603_100NF_50V_10%_X7R"
-			(at 116.84 71.12 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e98e4ab-2bb2-4f20-8498-c4c88b55eac9")
-		)
-		(pin "1"
-			(uuid "e94438d8-1e66-4f9d-b8ba-93d4507c8f75")
-		)
-		(instances
-			(project "8CH_Analog_Front_END"
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3601")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3501")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4701")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4601")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1701")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1601")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2401")
-					(unit 1)
-				)
-				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G")
-		(at 378.46 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f450a751-80f7-4fd5-a1c8-3698dd2dbc38")
-		(property "Reference" "C1633"
-			(at 382.27 219.202 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 382.27 225.298 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 378.46 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
-			(at 378.46 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 378.46 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CC0402_1NF_50V_5%_C0G"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "1nF"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" ""
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Preferred"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" ""
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TC" "C0G/NP0"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±5%"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 378.46 222.25 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0402_1NF_50V_5%_C0G"
-			(at 378.46 222.25 0)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38359,7 +37490,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38369,7 +37500,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38379,7 +37510,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38389,7 +37520,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38399,7 +37530,7 @@
 			)
 		)
 		(property "PressFit" ""
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38409,7 +37540,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38419,7 +37550,7 @@
 			)
 		)
 		(property "Sense Comment" ""
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38429,7 +37560,7 @@
 			)
 		)
 		(property "ComponentHeight" ""
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38438,8 +37569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "KEMET"
-			(at 378.46 222.25 0)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38448,8 +37579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "C0402C102J5GACTU"
-			(at 378.46 222.25 0)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38459,7 +37590,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.55mm"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38468,8 +37599,8 @@
 				(hide yes)
 			)
 		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
-			(at 378.46 222.25 0)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38478,8 +37609,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "CERN DEM BC"
-			(at 378.46 222.25 0)
+		(property "Author" "CERN DEM MR"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38488,8 +37619,8 @@
 				(hide yes)
 			)
 		)
-		(property "CreateDate" "2019-09-02 00:00:00 +0000"
-			(at 378.46 222.25 0)
+		(property "CreateDate" "2017-06-30 00:00:00 +0000"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38498,8 +37629,8 @@
 				(hide yes)
 			)
 		)
-		(property "LatestRevisionDate" "2019-09-02 00:00:00 +0000"
-			(at 378.46 222.25 0)
+		(property "LatestRevisionDate" "2017-06-30 00:00:00 +0000"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38509,7 +37640,7 @@
 			)
 		)
 		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38519,7 +37650,7 @@
 			)
 		)
 		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38529,7 +37660,7 @@
 			)
 		)
 		(property "Database Name" "Capacitors"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38539,7 +37670,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors SMD"
-			(at 378.46 222.25 0)
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38548,8 +37679,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number Nocolon" "CC0402_1NF_50V_5%_C0G"
-			(at 378.46 222.25 0)
+		(property "Part Number Nocolon" "CC0402_100NF_50V_10%_X7R"
+			(at 240.03 71.12 0)
 			(show_name yes)
 			(effects
 				(font
@@ -38557,45 +37688,45 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "840b9f97-24c7-4d78-ad90-113ac1fa1979")
 		)
 		(pin "1"
-			(uuid "ce588136-10d6-46c5-8387-9b98dfc97ba1")
+			(uuid "fcc53427-c129-4ca1-aec0-3d4c8c7a1c8e")
+		)
+		(pin "2"
+			(uuid "b292d83c-317b-478f-8a7d-d708f46101ff")
 		)
 		(instances
 			(project "8CH_Analog_Front_END"
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C3633")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C3533")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C4733")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C4633")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C1733")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C1633")
+					(reference "C1")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3126545d-75e1-4904-91c6-f136880f782d"
-					(reference "C2433")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/8d2c04aa-1707-419d-b51c-18c082e81317"
-					(reference "C2333")
+					(reference "C3")
 					(unit 1)
 				)
 			)

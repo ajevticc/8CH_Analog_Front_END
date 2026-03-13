@@ -16602,7 +16602,7 @@
 			(justify left bottom)
 		)
 		(uuid "bd7f1062-9437-4cd9-b9f1-145f89876ecd")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 16.4465 95.25 0)
 			(effects
 				(font

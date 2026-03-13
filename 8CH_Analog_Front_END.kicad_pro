@@ -68,7 +68,128 @@
           "width": 0.107
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|27130000|190185000|31ec221a-ecfc-4a49-85ca-52eb42d8bd84|8d3d4aa7-84e1-46aa-b1b9-27fe80f7605c",
+          "only one cap mounted, pads overlap for SI"
+        ],
+        [
+          "courtyards_overlap|27180000|190185000|2971e93e-5ba4-4fa9-ad87-a8dc98c9bc50|613ac7b1-2797-43b5-9e0f-a0e65d434697",
+          "only one cap mounted, pads overlap for SI"
+        ],
+        [
+          "diff_pair_gap_out_of_range|18030000|243930000|b5f39012-014d-44f7-88a1-abd76669fc3e|32bb70a8-6a4e-4cfc-b53e-c4d10ff19c8c",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|18040000|247770000|4fc9c4b5-26cb-4ee7-acdc-d0159c65ac71|3b9cccdc-1084-40a5-b0c2-130c9f8206cc",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|23962500|161100000|0bb0c8b0-8c40-4311-8fdd-4688d72ff119|f3f65d25-efef-4777-993d-f19836b87398",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|23962500|162600000|bfdfbbca-5d53-4cd5-bae8-e945d22319c2|7f4ec9c5-df69-40f5-8460-122b1758c726",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|23962500|164100000|3bab5611-e38f-40cd-a4fa-9b6e816157a9|d4143ac3-e51c-49fb-ae33-f37b5b31de8d",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|25460000|182650000|19a00c00-1ac8-4129-a429-9d11d4a8f499|b4f88a6b-1cf8-42c6-a869-b14da2ae28b8",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26650000|175439836|67468087-b790-4bd0-b3f3-838a8af7919c|0de6d023-ce1d-4f34-9094-7e1e6f9ce950",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26856249|189008751|911da269-c595-4e63-96b3-77099d0a0cb2|337da36b-d3e5-40e5-8c2b-f98b81fd3505",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26861250|189356250|566c67b8-1775-40ed-9f25-d29a75f2a625|432f8e3b-ca14-46f1-be0d-e289f96e998d",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26875000|166012500|c534e1c5-8de5-43df-8e11-0a3c15ba616e|a338c0d4-0639-4886-99e4-7cc731c003dd",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26885000|178225000|36582e42-f4cf-4b90-a179-c0c6eb2a377f|4ea92d9e-cd86-4fed-9249-4f25d45a6e6d",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|26885000|184575000|cb0a19b8-0eb3-4cac-9242-1ffeebb4834f|8a9ceb5a-9edd-45fd-9175-26ec51365e69",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|33287500|160600000|79a677ec-e993-4e7b-8ab9-66227322ea11|e400ee6f-b4a5-4f39-9646-dfcc9cfd5a9d",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92255672|125250000|9859dad6-0428-4c48-9dbb-951c94a96e0b|ee3c7554-7bac-4399-ac81-b8c3fa549eeb",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92255672|129250000|ea5c66a7-7e65-423b-bfc3-bc0adc985111|d7be00c7-c464-48a0-bff5-ac5c0c518036",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92257500|191454315|68c5076d-62ac-463f-9baf-7db7f7ef4f77|6012402e-cff0-4648-bcaa-3b9460c7130a",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92257500|195454315|321d0acb-918e-4870-b4c8-9f8e2df96a01|4b0098c2-f59c-4750-a6d4-56c3b90d8d63",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92257500|324490417|0c5ce5a0-375d-4fac-a4f2-19502efc67ac|94505e78-cf22-43e4-86bc-9246a00e08fa",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|92257500|328490417|9d6f75a3-41e3-4de4-acd8-a4684b64c77e|43cf471f-aaa5-46f6-b294-56190ec20ad1",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95660000|256600000|a71afb95-bca2-45e9-bfea-182b6e80f102|2f6b49e5-129e-43af-8308-6d391e59c0b7",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95660000|262925000|6a0551cb-8f0f-4a45-accd-6dee319c3f06|9a5501cc-03d1-42d2-ab3b-f429cc27f9e2",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95668172|123837500|c1617513-ff5a-4a14-a979-1ef17bd21f2b|be2de3c0-604f-4b87-a301-df17910ffddd",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95668172|130162500|f1d05425-004c-46f5-a606-eddf849da0cb|3f96e854-8269-494f-aca4-a00d51919269",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95670000|190041815|7dbba6c2-5757-418c-8db0-626459566168|cee3a8c6-85f6-488e-9317-5ecf94f45062",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95670000|196366815|a76a069e-4938-4757-b646-faf5b2fa7ba6|09af34d2-636f-45b3-89ff-e7043b1d2ee1",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95670000|323077917|8694047b-5df6-472d-984d-4a6be6c05198|648a8995-4f68-405a-b1a4-6eb9236b813c",
+          ""
+        ],
+        [
+          "diff_pair_gap_out_of_range|95670000|329402917|fbd34e0e-03ea-4b1c-99ad-96660486d896|9571327c-97b6-4b6d-8a8c-d9515389fc72",
+          ""
+        ],
+        [
+          "malformed_courtyard|35700000|293000020|425aa3b4-3499-4536-8ec5-cb521b4b4d53|00000000-0000-0000-0000-000000000000",
+          "fix FP in the DEM lib"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -96,46 +217,46 @@
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
-        "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "length_out_of_range": "ignore",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
+        "mirrored_text_on_front_layer": "ignore",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
+        "nonmirrored_text_on_back_layer": "ignore",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "warning",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
-        "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "shorting_items": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
+        "skew_out_of_range": "ignore",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
-        "too_many_vias": "error",
+        "too_many_vias": "ignore",
         "track_angle": "error",
         "track_dangling": "warning",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
-        "unresolved_variable": "error",
+        "unresolved_variable": "ignore",
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -145,10 +266,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -200,8 +321,10 @@
         0.0,
         0.144,
         0.15,
+        0.2,
         0.3,
         0.5,
+        1.0,
         2.0,
         3.0
       ],
@@ -495,7 +618,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,31 +629,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.457,
-        "diff_pair_gap": 0.143,
-        "diff_pair_width": 0.107,
-        "line_style": 0,
-        "name": "100_OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 0, 255)",
-        "wire_width": 10
-      },
-      {
-        "clearance": 0.558,
         "line_style": 0,
         "name": "50_OHM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.144,
         "wire_width": 18
+      },
+      {
+        "line_style": 0,
+        "name": "ZDIFF_100_OHM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 255)",
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -569,109 +687,145 @@
         "50_OHM"
       ],
       "/ADC224_VIN01_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC224_VIN01_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC224_VIN23_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC224_VIN23_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC225_VIN01_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC225_VIN01_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC225_VIN23_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC225_VIN23_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC226_VIN01_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC226_VIN01_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC226_VIN23_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC226_VIN23_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC227_VIN01_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC227_VIN01_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC227_VIN23_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC227_VIN23_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/ADC_USER_SYSREF_AC_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/ADC_USER_SYSREF_AC_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/CLK_125M_TEST": [
-        "ZSE_50R"
+        "50_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/CLK_DBG_AC_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/CLK_DBG_AC_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/PL_CLK_62M5_AC_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/PL_CLK_62M5_AC_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSCLOCK_62M5_1V2_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSCLOCK_62M5_1V2_P": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_7M_1V2_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_7M_1V2_P": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_7M_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_7M_P": [
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_AC_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/SYSREF_AC_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/c2tr_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/Master_Clock_Generator/c2tr_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/AC_CLK_A_5G_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/AC_CLK_A_5G_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/AC_CLK_B_5G_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/AC_CLK_B_5G_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/CLKIN_125M_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/CLKIN_125M_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/OSCIN_AC_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/ADC_DAC_Clock_Synthesizer/RF_5GHz_PLL/OSCIN_AC_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSCLOCK_62M5_1V2_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSCLOCK_62M5_1V2_P": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSREF_7M_1V2_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSREF_7M_1V2_P": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSREF_7M_N": [
+        "ZDIFF_100_OHM"
+      ],
+      "/ADC_DAC_Clock_Synthesizer/SYSREF_7M_P": [
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK/1BIT_ATTENUATOR_CH_A/ATT_PIN_1": [
         "50_OHM"
@@ -1142,64 +1296,64 @@
         "50_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/DIFF_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VIN_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOA_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_0/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/1BIT_ATTENUATOR_CH_A/1_BIT_ATT_IN_CH_A": [
         "50_OHM"
@@ -1259,64 +1413,64 @@
         "50_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/DIFF_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/DIFF_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/DIFF_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/DIFF_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VIN_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VIN_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VIN_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VIN_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOA1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOA1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOA_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOA_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOB1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOB1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOB_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_1/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/1BIT_ATTENUATOR_CH_A/1_BIT_ATT_IN_CH_A": [
         "50_OHM"
@@ -1376,64 +1530,64 @@
         "50_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/DIFF_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/DIFF_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/DIFF_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/DIFF_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VIN_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VIN_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VIN_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VIN_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOA1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOA1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOA_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOA_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOB1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOB1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOB_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_2/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/1BIT_ATTENUATOR_CH_A/1_BIT_ATT_IN_CH_A": [
         "50_OHM"
@@ -1493,64 +1647,64 @@
         "50_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/DIFF_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/DIFF_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/DIFF_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/DIFF_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VIN_A_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VIN_A_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VIN_B_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VIN_B_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOA1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOA1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOA_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOA_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOB1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOB1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOB_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AFE_BLOCK_3/VARIABLE_GAIN_AMPLIFIER/VOB_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/AF_B0_CHA_N": [
         "100_OHM"
@@ -1565,52 +1719,52 @@
         "100_OHM"
       ],
       "/DAC228_VOUT0_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT0_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT2_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT2_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT3_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC228_VOUT3_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT0_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT0_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT1_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT1_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT2_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT2_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT3_N": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC229_VOUT3_P": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "/DAC_AMPLIFIER_CH_A/DAC_CALL_OUT_CH_A": [
         "50_OHM"
@@ -1643,16 +1797,16 @@
         "100_OHM"
       ],
       "/RFSoC_Connector_X2/ADC225_CLK_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/RFSoC_Connector_X2/ADC225_CLK_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/RFSoC_Connector_X2/DAC229_CLK_N": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/RFSoC_Connector_X2/DAC229_CLK_P": [
-        "ZDIFF_100R"
+        "ZDIFF_100_OHM"
       ],
       "/RFSoC_Connector_X2/SYSCLOCK_1V2_N B69.L11N H16": [
         "ZDIFF_100R"
@@ -1898,10 +2052,10 @@
         "50_OHM"
       ],
       "Net-(C2524-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C2526-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C2603-Pad1)": [
         "50_OHM"
@@ -2000,10 +2154,10 @@
         "50_OHM"
       ],
       "Net-(C3724-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C3726-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C3803-Pad1)": [
         "50_OHM"
@@ -2120,10 +2274,10 @@
         "50_OHM"
       ],
       "Net-(C4824-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C4826-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C4903-Pad1)": [
         "50_OHM"
@@ -2156,10 +2310,10 @@
         "100_OHM"
       ],
       "Net-(C624-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C626-Pad1)": [
-        "100_OHM"
+        "ZDIFF_100_OHM"
       ],
       "Net-(C7001-Pad1)": [
         "50_OHM"
@@ -4025,7 +4179,7 @@
         "ZSE_50R"
       ],
       "Net-(J5201-Pad1)": [
-        "ZSE_50R"
+        "50_OHM"
       ],
       "Net-(R1001-Pad2)": [
         "50_OHM"
@@ -4056,6 +4210,9 @@
       ],
       "unconnected-(C1010-Pad2)": [
         "50_OHM"
+      ],
+      "unconnected-(C239-Pad1)": [
+        "ZDIFF_100_OHM"
       ],
       "unconnected-(FL14001-GND-Pad2)": [
         "100_OHM"
@@ -4118,12 +4275,7 @@
         "100_OHM"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "50_OHM",
-        "pattern": "/AFE_BLOCK1/LOW_PASS_FILTER_INPUT_CH_A/LPF_OUT_CH_A"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -4203,14 +4355,308 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Bonding",
+          "name": "Bonding",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Case",
+          "name": "Case",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Component Kind",
+          "name": "Component Kind",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Component Type",
+          "name": "Component Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentHeight",
+          "name": "ComponentHeight",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1Description",
+          "name": "ComponentLink1Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1URL",
+          "name": "ComponentLink1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2Description",
+          "name": "ComponentLink2Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2URL",
+          "name": "ComponentLink2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CreateDate",
+          "name": "CreateDate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Database Name",
+          "name": "Database Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Database Table Name",
+          "name": "Database Table Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Device",
+          "name": "Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field1",
+          "name": "Field1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HelpURL",
+          "name": "HelpURL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LatestRevisionDate",
+          "name": "LatestRevisionDate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LatestRevisionDate1",
+          "name": "LatestRevisionDate1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LibFootprint",
+          "name": "LibFootprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LibSymbol",
+          "name": "LibSymbol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer1 ComponentHeight",
+          "name": "Manufacturer1 ComponentHeight",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer1 Example",
+          "name": "Manufacturer1 Example",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer1 Part Number",
+          "name": "Manufacturer1 Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounted",
+          "name": "Mounted",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PackageDescription",
+          "name": "PackageDescription",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number Nocolon",
+          "name": "Part Number Nocolon",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Count",
+          "name": "Pin Count",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PressFit",
+          "name": "PressFit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SCEM",
+          "name": "SCEM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMD",
+          "name": "SMD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sense",
+          "name": "Sense",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sense Comment",
+          "name": "Sense Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Socket",
+          "name": "Socket",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status Comment",
+          "name": "Status Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TC",
+          "name": "TC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

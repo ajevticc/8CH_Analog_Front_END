@@ -2582,6 +2582,506 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1nF"
+				(at 3.81 -3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "CC0402_1NF_50V_5%_C0G"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "1nF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "Preferred"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TC" "C0G/NP0"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±5%"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0402_1NF_50V_5%_C0G"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "0402"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "KEMET"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "C0402C102J5GACTU"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.55mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM BC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2019-09-02 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2019-09-02 00:00:00 +0000"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Capacitors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Capacitors SMD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "CC0402_1NF_50V_5%_C0G"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitors{space}SMD:CAPC1005X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Capacitors SMD/CC0402_1NF_50V_5%_C0G_1_0"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.302 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.032) (xy 3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 2.032) (xy 4.318 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.318 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CERN:Resistors SMD/R0402_0R_JUMPER"
 			(pin_numbers
 				(hide yes)
@@ -3194,6 +3694,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 163.83 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539ff985-1973-479e-94ff-686e8b07b180")
+	)
+	(junction
+		(at 160.02 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f2e0cc-df20-4c0e-98d8-0558032da2ee")
+	)
 	(wire
 		(pts
 			(xy 289.56 86.36) (xy 283.21 86.36)
@@ -3206,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 165.1 100.33)
+			(xy 154.94 100.33) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3326,6 +3838,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805d5531-f32a-4a3f-a47d-6965618826c0")
+	)
+	(wire
+		(pts
 			(xy 190.5 107.95) (xy 199.39 107.95)
 		)
 		(stroke
@@ -3333,6 +3855,16 @@
 			(type default)
 		)
 		(uuid "87793d40-76ec-48dd-a71f-1d62a21f5a6a")
+	)
+	(wire
+		(pts
+			(xy 160.02 118.11) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c69dd31-3f97-48ab-8b50-139f964156ba")
 	)
 	(wire
 		(pts
@@ -3346,13 +3878,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 110.49) (xy 165.1 110.49)
+			(xy 154.94 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e071b21-8e7d-48e1-a71e-8b4918d1533a")
+	)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16aa40d-96d6-472b-aa5f-896e7d92e10a")
 	)
 	(wire
 		(pts
@@ -3396,6 +3938,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 92.71) (xy 163.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fd5083-765e-4b88-89f5-b28fddbcd608")
+	)
+	(wire
+		(pts
 			(xy 212.09 92.71) (xy 234.95 92.71)
 		)
 		(stroke
@@ -3405,7 +3957,7 @@
 		(uuid "ebfb297d-3ae9-426b-85c9-616321b3fa26")
 	)
 	(image
-		(at 165.1 139.7)
+		(at 189.23 151.13)
 		(uuid "c594d4cf-5f07-43e0-9cb1-abbc7d935729")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAdcAAAENCAIAAADSQ7jfAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOydZUAUXRfH78wmSzeIKIJiIaigICAGBiqiYDwqdnf3o2K3r/rYja2I3YHdYhAKKEiICCidy068"
@@ -3827,7 +4379,7 @@
 	)
 	(hierarchical_label "1BIT_ATTEN_VC2_CH_A"
 		(shape input)
-		(at 161.29 100.33 180)
+		(at 154.94 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3860,7 +4412,7 @@
 	)
 	(hierarchical_label "1BIT_ATTEN_VC1_CH_A"
 		(shape input)
-		(at 161.29 110.49 180)
+		(at 154.94 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5532,6 +6084,100 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 160.02 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5257f8f5-5b22-4ec0-ba5a-e44104b0feeb")
+		(property "Reference" "#PWR0906"
+			(at 160.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b73f0cdd-35d3-4dab-8bb0-24e8d3685095")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR03106")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR03006")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR04206")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR04106")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR0906")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR01006")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR01906")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR01806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CERN:Capacitors SMD/CC0402_100NF_50V_10%_X7R")
 		(at 199.39 107.95 0)
 		(unit 1)
@@ -6629,6 +7275,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G")
+		(at 160.02 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f77a04-288e-49fa-913d-78ac88fda12a")
+		(property "Reference" "C904"
+			(at 156.21 123.1901 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF"
+			(at 156.21 120.6501 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_1NF_50V_5%_C0G"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "1nF"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "C0G/NP0"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_1NF_50V_5%_C0G"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "KEMET"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "C0402C102J5GACTU"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2019-09-02 00:00:00 +0000"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2019-09-02 00:00:00 +0000"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_1NF_50V_5%_C0G"
+			(at 160.02 118.11 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "264c458e-9f43-44f5-a636-1623398f314a")
+		)
+		(pin "2"
+			(uuid "977ab7fb-165a-48b2-b979-9250b70e7809")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C3104")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C3004")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C4204")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C4104")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C904")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C1004")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C1904")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C1804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 115.57 0)
 		(unit 1)
@@ -6717,6 +7801,100 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
 					(reference "#PWR01803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a669fc-b3c7-458d-849c-e992306e03ee")
+		(property "Reference" "#PWR0905"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83954184-b8a0-479b-93b0-41ee91d37590")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR03105")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR03005")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR04205")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR04105")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR0905")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR01005")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "#PWR01905")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "#PWR01805")
 					(unit 1)
 				)
 			)
@@ -7248,6 +8426,444 @@
 				)
 				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
 					(reference "C1802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Capacitors SMD/CC0402_1NF_50V_5%_C0G")
+		(at 163.83 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6cfbb67-b23a-4320-bbae-0ac67b70a304")
+		(property "Reference" "C903"
+			(at 167.64 87.6299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1nF"
+			(at 167.64 90.1699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CC0402_1NF_50V_5%_C0G"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "1nF"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "Preferred"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "C0G/NP0"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_1NF_50V_5%_C0G"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" ""
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "KEMET"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "C0402C102J5GACTU"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM BC"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2019-09-02 00:00:00 +0000"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2019-09-02 00:00:00 +0000"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Capacitors:Capacitor - non polarized"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Capacitors SMD:CAPC1005X55N"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Capacitors"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors SMD"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "CC0402_1NF_50V_5%_C0G"
+			(at 163.83 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d48e5a-0d51-4035-b8e6-ae75a8a2963a")
+		)
+		(pin "2"
+			(uuid "05045747-5c93-4d68-bc40-ded45d1fa1ea")
+		)
+		(instances
+			(project "8CH_Analog_Front_END"
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C3103")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/959874e2-a1ba-45a6-9708-c98c6353ea76/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C3003")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C4203")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/d5e71385-8867-4d86-bc39-a4610bf8307e/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C4103")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C903")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e0337a1b-c397-4f99-b607-786eab07764a/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C1003")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/3afd7665-73ad-4a1b-9e8a-6e87417a4dd7"
+					(reference "C1903")
+					(unit 1)
+				)
+				(path "/41597329-5145-432a-9041-5bc2cec82d9b/e47bcd55-76e2-4e81-affb-23b96debb6ea/7464d3e0-eae9-4acb-bee5-980f6beda88a"
+					(reference "C1803")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,43 @@
+(version 1)
+
+
+(rule "clearance_zdiff_100R_gnd_coplanar"
+	(layer outer)
+	(constraint clearance (min 0.558mm) )
+	(condition "A.NetClass =='ZDIFF_100_OHM' && B.Type=='Zone' && B.NetName=='GND' " )
+)
+
+(rule "zdiff_100R_outer"
+	(layer outer)
+	(constraint track_width (min 0.1mm) (max 0.105mm) (opt 0.1mm) )
+	(constraint diff_pair_gap (min 0.130mm) ( max 0.140mm) (opt 0.135mm) )
+	(constraint diff_pair_uncoupled (max 70mm) )
+	(condition "A.NetClass =='ZDIFF_100_OHM' " )
+)
+
+
+
+(rule "zdiff_100R_inner"
+	(layer inner)
+	(constraint track_width (min 0.1mm) (max 0.105mm) (opt 0.1mm) )
+	(constraint diff_pair_gap (min 0.165mm) ( max 0.175mm) (opt 0.17mm) )
+	(constraint diff_pair_uncoupled (max 70mm) )
+	(condition "A.NetClass =='ZDIFF_100_OHM' " )
+)
+
+
+(rule "zse_50R_outer"
+	(layer outer)
+	(constraint track_width (min 0.144mm) (max 0.155mm) (opt 0.15mm) )
+	(condition "A.NetClass == '50_OHM' " )
+)
+
+(rule "lpf_board_edge_exception"
+	(condition "A.Type == 'Footprint' && A.Value == 'LPF'" )
+	(constraint edge_clearance (min 0mm) )
+)
+
+(rule "default_edge_clearance"
+	(constraint edge_clearance (min 0.45mm) )
+)
+

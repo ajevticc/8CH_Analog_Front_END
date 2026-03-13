@@ -58,4 +58,5 @@
   (lib (name "TYCO THD")(type "KiCad")(uri "${CERN_LIB_DIR}/PcbLib/TYCO THD.pretty")(options "")(descr ""))
   (lib (name "WEIDMULLER SMD")(type "KiCad")(uri "${CERN_LIB_DIR}/PcbLib/WEIDMULLER SMD.pretty")(options "")(descr ""))
   (lib (name "WEIDMULLER THD")(type "KiCad")(uri "${CERN_LIB_DIR}/PcbLib/WEIDMULLER THD.pretty")(options "")(descr ""))
+  (lib (name "LPF_MODULE")(type "KiCad")(uri "${KIPRJMOD}/LPF_MODULE.pretty")(options "")(descr ""))
 )

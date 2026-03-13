@@ -7784,6 +7784,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Note on power dissipation on 3V3A:\n\nADL5205 takes 175 mA Iccq + 2 * 20 mA output short circuit current = ~250 mA\n\nPtot = (3.3V - 5.5V) * 250 mA = 0.55 W"
+		(exclude_from_sim no)
+		(at 83.058 211.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29030f27-784e-421f-aa45-1b4d37cde75e")
+	)
 	(text "SECOND INVERSION!"
 		(exclude_from_sim no)
 		(at 264.414 122.682 0)
@@ -10351,6 +10361,7 @@
 		(polyline
 			(pts
 				(xy 260.35 146.05) (xy 260.35 128.27) (xy 298.45 128.27) (xy 298.45 130.81) (xy 372.11 130.81) (xy 372.11 146.05)
+				(xy 335.28 146.05) (xy 335.28 138.43) (xy 299.72 138.43) (xy 299.72 146.05)
 			)
 			(stroke
 				(width 0)
@@ -10392,7 +10403,7 @@
 			(justify right bottom)
 		)
 		(uuid "21a13073-62da-4872-8e09-efa1fb1d12e5")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 111.6965 161.29 0)
 			(effects
 				(font
@@ -10425,7 +10436,7 @@
 			(justify left bottom)
 		)
 		(uuid "225d0264-eff6-43ed-95d0-220399b94156")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 149.7965 151.13 0)
 			(effects
 				(font
@@ -10491,7 +10502,7 @@
 			(justify left bottom)
 		)
 		(uuid "47b50d9a-3e85-4e9f-a414-6215600f412d")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 109.1565 142.24 0)
 			(effects
 				(font
@@ -10524,7 +10535,7 @@
 			(justify left bottom)
 		)
 		(uuid "5d535188-1d67-44ad-a61e-69b550003753")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 111.6965 97.79 0)
 			(effects
 				(font
@@ -10557,7 +10568,7 @@
 			(justify left bottom)
 		)
 		(uuid "716574a7-bbcd-49c0-a0db-da95fae72cd3")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 149.7965 106.68 0)
 			(effects
 				(font
@@ -10590,7 +10601,7 @@
 			(justify left bottom)
 		)
 		(uuid "7b6e0c4a-c931-4d59-90a3-aca6c7265f72")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 261.5565 86.36 0)
 			(effects
 				(font
@@ -10656,7 +10667,7 @@
 			(justify left bottom)
 		)
 		(uuid "8a6a0c16-38b8-48a4-b8b0-51d4c4c8bf2f")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 149.7965 140.97 0)
 			(effects
 				(font
@@ -10689,7 +10700,7 @@
 			(justify right bottom)
 		)
 		(uuid "def4cf3d-791e-4733-a71b-2b5389401da8")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 111.6965 116.84 0)
 			(effects
 				(font
@@ -10722,7 +10733,7 @@
 			(justify right bottom)
 		)
 		(uuid "e83e201e-a2e1-4f51-8265-17d806aeb732")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 261.5565 148.59 0)
 			(effects
 				(font
@@ -10755,7 +10766,7 @@
 			(justify left bottom)
 		)
 		(uuid "ebd81e13-58ce-43b6-ac11-c2335b450d00")
-		(property "Netclass" "100_OHM"
+		(property "Netclass" "ZDIFF_100_OHM"
 			(at 149.7965 96.52 0)
 			(effects
 				(font
